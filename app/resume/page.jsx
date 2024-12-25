@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaGithub, FaPython, FaNode, FaEye } from "react-icons/fa";
 import { SiCplusplus, SiSwift, SiRuby, SiDjango, SiArduino } from "react-icons/si";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
@@ -8,6 +8,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 // Data objects
 
@@ -21,31 +22,62 @@ const extracurriculars = {
       title: "Student Body Leadership",
       position: "Student Body President",
       description: "Led initiatives to improve student life, organized school-wide events, and served as the primary liaison between students and administration.",
-      image: "/api/placeholder/400/300"
+      images: [
+        "/assets/extracurriculars/student_body_leader.jpg",
+        "/assets/extracurriculars/students.jpg",
+        "/assets/extracurriculars/fawe.jpeg",
+      ]
+    //   image: "/api/placeholder/400/300"
     },
     {
       title: "Science Club Innovation",
       position: "Club President",
       description: "Managed weekly experiments, coordinated science fair projects, and fostered STEM enthusiasm among peers.",
-      image: "/api/placeholder/400/300"
+      images: [
+        "/assets/extracurriculars/robotics.jpeg",
+        "/assets/extracurriculars/science_club.jpeg",
+        "/assets/extracurriculars/science_lab.jpeg",
+        "/assets/extracurriculars/science_lab2.jpeg"
+      ]
     },
     {
       title: "Debate Club Development",
       position: "Founder & President",
       description: "Established the school's first debate club, organized competitions, and trained 62 members in public speaking",
-      image: "/api/placeholder/400/300"
+      images: [
+        "/assets/extracurriculars/debate_club.jpg",
+        "/assets/extracurriculars/student_body2.jpg",
+        "/assets/extracurriculars/debate2.jpeg",
+        "/assets/extracurriculars/debateee.jpeg"
+
+      ]
     },
     {
       title: "Community Service",
       position: "Volunteer Coordinator",
-      description: "Organized local community service projects and coordinated with local organizations.",
-      image: "/api/placeholder/400/300"
+      description: "Organized local community service projects and coordinated with local organizations. foundraised $6,000+ for donations",
+      images: [
+        "/assets/extracurriculars/charity.jpg",
+      ]
+    },
+    {
+      title: "Traditional Dance Troupe",
+      position: "Event Coordinator & Lead Dancer",
+      description: "Led our school's traditional dance troupe, managing performances for school and community events. Choreographed routines, conducted rehearsals, and collaborated with local artists. Deepened cultural appreciation while developing leadership and organizational skills.",
+      images: [
+        "/assets/extracurriculars/ballet.jpg",
+        "/assets/extracurriculars/ballet2.jpg"
+        ]
     },
     {
       title: "Software Development Team",
       position: "Tech Lead",
       description: "Led a team of student developers in creating school management software and organizing coding workshops.",
-      image: "/api/placeholder/400/300"
+      images: [
+        "/api/placeholder/400/300",
+        "/api/placeholder/400/300",
+        "/api/placeholder/400/300"
+      ]
     }
   ]
 };
@@ -165,6 +197,67 @@ const other_skills = {
   ]
 };
 
+
+// Add ImageCarousel component
+const ImageCarousel = ({ images = [] }) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+  
+    const nextImage = useCallback(() => {
+      if (images.length > 0) {
+        setCurrentIndex((prev) => (prev + 1) % images.length);
+      }
+    }, [images]);
+  
+    useEffect(() => {
+      if (images.length > 1) {
+        const timer = setInterval(nextImage, 3000);
+        return () => clearInterval(timer);
+      }
+    }, [nextImage, images]);
+  
+    if (!images.length) {
+      return (
+        <div className="relative w-full md:w-[300px] h-[200px] rounded-lg overflow-hidden bg-gray-800">
+          <div className="absolute inset-0 flex items-center justify-center">
+            <p className="text-white/60">No images available</p>
+          </div>
+        </div>
+      );
+    }
+  
+    return (
+      <div className="relative w-full md:w-[300px] h-[200px] rounded-lg overflow-hidden">
+        {images.map((src, index) => (
+          <div
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
+              index === currentIndex ? 'opacity-100' : 'opacity-0'
+            }`}
+          >
+            <img
+              src={src}
+              alt={`Slide ${index + 1}`}
+              className="object-cover w-full h-full"
+            />
+          </div>
+        ))}
+        {images.length > 1 && (
+          <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-2">
+            {images.map((_, index) => (
+              <button
+                key={index}
+                className={`w-2 h-2 rounded-full ${
+                  index === currentIndex ? 'bg-accent' : 'bg-white/50'
+                }`}
+                onClick={() => setCurrentIndex(index)}
+              />
+            ))}
+          </div>
+        )}
+      </div>
+    );
+};
+
 const Resume = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -275,24 +368,18 @@ const Resume = () => {
 
               <ScrollArea className="h-[600px] w-full">
                 <div className="grid grid-cols-1 gap-6 pr-4">
-                  {extracurriculars.activities.map((activity, index) => (
+                    {extracurriculars.activities.map((activity, index) => (
                     <div key={index} className="bg-[#232329] rounded-xl p-6 flex flex-col md:flex-row gap-6">
-                      <div className="relative w-full md:w-[300px] h-[200px] rounded-lg overflow-hidden">
-                        <img
-                          src={activity.image}
-                          alt={activity.title}
-                          className="object-cover w-full h-full"
-                        />
-                      </div>
-                      <div className="flex flex-col justify-center flex-1">
+                        <ImageCarousel images={activity.images} />
+                        <div className="flex flex-col justify-center flex-1">
                         <h4 className="text-2xl font-semibold mb-2">{activity.title}</h4>
                         <p className="text-accent mb-3">{activity.position}</p>
                         <p className="text-white/60">{activity.description}</p>
-                      </div>
+                        </div>
                     </div>
-                  ))}
+                    ))}
                 </div>
-              </ScrollArea>
+             </ScrollArea>
             </TabsContent>
 
             {/* Technical Skills Section */}
