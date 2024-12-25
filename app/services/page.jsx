@@ -6,19 +6,129 @@ import { BsArrowDownRight } from "react-icons/bs";
 import Image from "next/image";
 
 const blogPosts = [
+    // The lean startup
     {
         id: "01",
-        title: "My Journey to College",
-        excerpt: "As a high school senior, the college application process has been both exciting and challenging...",
-        content: "As a high school senior, the college application process has been both exciting and challenging. From researching universities to writing personal statements, each step has been a learning experience. I've discovered so much about myself and my aspirations along the way. The late nights spent perfecting essays and the anxious moments waiting for decisions have all been part of this transformative journey. Through it all, I've learned the importance of perseverance, self-reflection, and staying true to my passions. This blog post delves into my personal experiences, the lessons I've learned, and advice for fellow students embarking on their own college application journeys."
+        title: "The Lean Startup",
+        excerpt: "The Lean Startup: A High Schooler's Guide to Building Smart (While Procrastinating on Math Homework)",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">The Lean Startup: A High Schooler's Guide to Building Smart (While Procrastinating on Math Homework)</h2>
+                    
+                    <h2 className="text-2l font-bold text-white mb-4">The Book that Changed My Perspective</h2>
+                    <p>As a high school student juggling Computer Science and Economics classes, I never thought a business book would make me rethink everything I knew about building products. But here I was, completely absorbed in Eric Ries's "The Lean Startup" while my calculus homework gave me judgmental looks from across the room.</p>
+                    <br />
+                    
+                    <h2 className="text-2l font-bold text-white mb-4">The MVP: Minimum Viable Procrastination</h2>
+                    <p>The biggest revelation? The concept of the Minimum Viable Product (MVP). It's like when I built my first calculator app - instead of trying to create a scientific calculator with trigonometric functions right away, I started with basic addition and subtraction. Turns out, that's exactly what the Lean Startup methodology preaches: start small, test quickly, and learn from feedback.</p>
+                    <br />
+                    
+                    <h2 className="text-2l font-bold text-white mb-4">Build-Measure-Learn: The Holy Trinity</h2>
+                    <p>The Build-Measure-Learn feedback loop became my new mantra. It's surprisingly similar to debugging code - you build something, test it, learn from the errors, and improve. I've started applying this to my school coding projects and even my Economics class presentations. Who knew business principles could make debugging less painful?</p>
+                    <br />
+                    
+                    <h2 className="text-2l font-bold text-white mb-4">Key Takeaways for a Teen Entrepreneur</h2>
+                    <p>Reading this book as a high school student gave me a unique perspective. Here are the main lessons that resonated with my inner tech enthusiast and aspiring economist:</p>
+                    <ol className="list-decimal pl-16 mt-4 space-y-4">
+                        <li>
+                            Validate assumptions early - Just like testing code, test your business ideas before going all in
+                        </li>
+                        <li>
+                            Embrace pivoting - Sometimes your first idea isn't the best one (like my failed attempt at creating a social network for pets)
+                        </li>
+                        <li>
+                            Data is your best friend - Whether it's user feedback or market research, numbers don't lie
+                        </li>
+                        <li>
+                            Innovation accounting - A perfect blend of my love for Economics and metrics-driven development
+                        </li>
+                    </ol>
+                    <br />
+                    
+                    <h2 className="text-2l font-bold text-white mb-4">Applying Lean Principles to High School Life</h2>
+                    <p>I've started implementing these principles in my school projects. For our upcoming Computer Science fair, I'm using the MVP approach - starting with a basic prototype and iterating based on feedback from my classmates. Even my Economics project on market analysis is benefiting from the Lean Startup's emphasis on validated learning.</p>
+                    <br />
+                    
+                    <p>The Lean Startup isn't just for Silicon Valley entrepreneurs - it's for anyone who wants to build something meaningful while minimizing waste. As a high school student straddling the worlds of Computer Science and Economics, these principles have given me a framework for approaching problems and projects more efficiently.</p>
+                    <p>Now, if you'll excuse me, I need to apply some validated learning to my pending math homework...</p>
+                    <br />
+                    
+                    <div > 
+                        <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>23, December 2024 &copy; Queen</p> 
+                        <footer className="mt-8 text-sm text-white/60">
+                            <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                        </footer>
+                    </div>
+                </div>
+            },
+        ]
     },
+    
+    // Student body leader
     {
         id: "02",
-        title: "Leadership in High School",
-        excerpt: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork...",
-        content: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork, responsibility, and personal growth. As president of the debate club and captain of the robotics team, I've faced challenges that have pushed me out of my comfort zone. From organizing events to motivating team members, each experience has contributed to my development as a leader. I've learned the importance of effective communication, delegation, and leading by example. This post explores the highs and lows of student leadership, offering insights into how these experiences have shaped my character and prepared me for future challenges in college and beyond."
+        title: "Student Body Leader 😃",
+        excerpt: "Surprise! You're the Student Body Leader (While Eating Mom's Cooking)",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">Surprise! You're the Student Body Leader (While Eating Mom's Cooking)</h2>
+                    <h2 className="text-2l font-bold text-white mb-4"> The Unexpected Phone Call</h2>
+                    <p>My peaceful post-exam bliss was interrupted by a phone call from school. I expected it to be about a misplaced textbook or an overdue library book. Instead, I heard:</p>
+                    <br />
+                    <p>"Congratulations! You've been elected as the new student body leader!"</p>
+                    <br />
+                    <p>I nearly choked on my sambusa. Me? The girl who once accidentally set off the fire alarm during a failed attempt at sneaking midnight snacks? The same person who got tangled in the volleyball net during PE? Apparently, yes!
+                    </p>
+                    <br />
+                    <h2 className="text-2l font-bold text-white mb-4">The Election Process: May the Odds Be Ever in Your Favor</h2>
+                    <p>At Fawe Girls School, becoming the student body leader is no small feat. It's like "The Hunger Games," minus the actual hunger (unless you count our cravings for contraband snacks). The school committee, in their infinite wisdom, nominates six candidates. Then, the student body votes, probably based on criteria like "Who's least likely to burn down the science lab?" or "Who can sweet-talk the nuns into extending curfew?"</p>
+                    <br />
+                    <h2 className="text-2l font-bold text-white mb-4">Catholic School Shenanigans</h2>
+                    <p>Now, let's talk about the elephant in the room – or should I say, the nun in the hallway? Fawe Girls is a Catholic school run by nuns, which adds an extra layer of... let's call it "excitement" to student leadership. I'm already planning my acceptance speech: "I solemnly swear to uphold the values of our school, and to find creative ways to hide my phone during morning prayers."</p>
+                    <br />
+                    <h2 className="text-2l font-bold text-white mb-4">The Weight of Responsibility (And My Backpack)</h2>
+                    <p>Being elected while absent has shown me the immense trust my peers have in me. It's both heartwarming and terrifying. I'm ready to take on this role with gusto, armed with innovative ideas and a healthy dose of humor. My goals include:</p>
+                    <ol className="list-decimal pl-16 mt-4 space-y-4">
+                        <li>
+                            Implementing a "Quiet Hours" policy in the library (aka "No Giggling Zone")
+                        </li>
+                        <li>
+                            Organizing inter-house competitions (may the best dormitory win!)
+                        </li>
+                        <li>
+                            Petitioning for better Wi-Fi (because how else are we supposed to "research" during study hall?)
+                        </li>
+                    </ol> 
+                    <br />
+                    <h2 className="text-2l font-bold text-white mb-4">Making Fawe Girls the Best in Rwanda</h2>
+                    <p>With the support of my fellow students and the watchful eyes of our beloved nuns, I'm determined to make Fawe Girls School the best in Rwanda. We'll have creative programs, engaging activities, and maybe, just maybe, we'll convince the administration that ice cream is a essential food group.</p>
+                    <br />
+                    <p>So here's to an exciting year ahead! May our uniforms always be pressed, our homework always be done, and our spirits always be high. And to my fellow students who elected me while I was blissfully unaware – thank you for your trust. I promise to lead with integrity, creativity, and only a minimal amount of shenanigans.</p>
+                    <p>Let the adventure begin! (Right after I finish this last bite of my mom's cooking.)</p>
+                </div>
+            },
+
+            {
+                type: "text",
+                content: 
+                <div > 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>25, August 2024 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+                
+            },
+        ]
     },
 
+    // Smogy Nairobi by Dalton
     {
         id: "03",
         title: "Literature for Joy: Good Old Smoggy Nairobi",
@@ -214,10 +324,11 @@ const blogPosts = [
         ]
     },
     
+    // End of 2022. From Eve
     {
         id: "05",
-        title: "End of 2022",
-        excerpt: "",
+        title: "Reflections and Aspirations: Navigating the End of 2022",
+        excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [
             {
                 type: "text",
@@ -274,6 +385,21 @@ const blogPosts = [
                 </div>
             },
         ]
+    },
+
+    {
+        id: "06",
+        title: "My Journey to College",
+        excerpt: "As a high school senior, the college application process has been both exciting and challenging...",
+        content: "As a high school senior, the college application process has been both exciting and challenging. From researching universities to writing personal statements, each step has been a learning experience. I've discovered so much about myself and my aspirations along the way. The late nights spent perfecting essays and the anxious moments waiting for decisions have all been part of this transformative journey. Through it all, I've learned the importance of perseverance, self-reflection, and staying true to my passions. This blog post delves into my personal experiences, the lessons I've learned, and advice for fellow students embarking on their own college application journeys."
+    },
+
+
+    {
+        id: "07",
+        title: "Leadership in High School",
+        excerpt: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork...",
+        content: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork, responsibility, and personal growth. As president of the debate club and captain of the robotics team, I've faced challenges that have pushed me out of my comfort zone. From organizing events to motivating team members, each experience has contributed to my development as a leader. I've learned the importance of effective communication, delegation, and leading by example. This post explores the highs and lows of student leadership, offering insights into how these experiences have shaped my character and prepared me for future challenges in college and beyond."
     },
 ];
 
