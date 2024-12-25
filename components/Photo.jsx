@@ -65,7 +65,7 @@ const Photo = () => {
                             className="absolute inset-0"
                         >
                             <Image
-                                src={showGif ? "/assets/cat-typing.gif" : "/assets/germainPhoto2.jpeg"}
+                                src={showGif ? "/assets/cat-typing.gif" : "/assets/queen_profile_full.jpeg"}
                                 priority
                                 quality={100}
                                 layout="fill"
