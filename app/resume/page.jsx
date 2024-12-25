@@ -70,6 +70,11 @@ const education = {
             duration: "2022 - 2025",
         },
         {
+            institution: "Isomo Academy - Bridge2Rwanda",
+            degree: "Scholar",
+            duration: "2023 - Present",
+        },
+        {
             institution: "Groupe Scolaire Officiel de Butare",
             degree: "Ordinary Level High-school",
             duration: "2019 - 2022",
@@ -88,11 +93,6 @@ const education = {
             institution: "Harvard",
             degree: "Harvard CS50",
             duration: "2021",
-        },
-        {
-            institution: "Google Student Developers Club",
-            degree: "Member",
-            duration: "2023 - Present",
         },
     ]
 };
