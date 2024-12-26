@@ -5,16 +5,16 @@ import CountUp from "react-countup";
 
 const stats = [
     {
-        num: 3,
+        num: 1,
         text: "2021 Presidential Youth Award",
     },
     {
-        num: 9,
+        num: 1,
         text: "2022 O'Level National Exams Best Performer",
     },
     {
-        num: "$ 5k",
-        text: "Raised In Charity",
+        num: 78,
+        text: "Families Helped with $5k Raised In Charity",
     },
     {
         num: 2,
