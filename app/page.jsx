@@ -23,7 +23,7 @@ const Home = () => {
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="https://drive.google.com/uc?export=download&id=1BU_K6umJEcOjhwdIvMYM_AWftAzOugEo"
+                href="https://docs.google.com/document/d/1OuLdM4HNPCfsSjXSvzwfzwyUXGYLMj11I7STw5A-6zk/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
