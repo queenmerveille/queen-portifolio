@@ -269,7 +269,7 @@ const Resume = () => {
   }, []);
 
   const openResume = () => {
-    window.open('https://drive.google.com/file/d/1BU_K6umJEcOjhwdIvMYM_AWftAzOugEo/view?usp=sharing', '_blank');
+    window.open('https://docs.google.com/document/d/1OuLdM4HNPCfsSjXSvzwfzwyUXGYLMj11I7STw5A-6zk/edit?usp=sharing', '_blank');
   };
 
   return (
