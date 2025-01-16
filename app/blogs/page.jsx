@@ -67,7 +67,7 @@ const blogPosts = [
                     <h2 className="text-2xl font-bold text-white mb-4 pl-16">The Lean Startup: A High Schooler's Guide to Building Smart (While Procrastinating on Math Homework)</h2>
                     
                     <h2 className="text-2l font-bold text-white mb-4">The Book that Changed My Perspective</h2>
-                    <p>As a high school student juggling Computer Science and Economics classes, I never thought a business book would make me rethink everything I knew about building products. But here I was, completely absorbed in Eric Ries's "The Lean Startup" while my calculus homework gave me judgmental looks from across the room.</p>
+                    <p>As a high school student juggling Advanced Mathematics, Computer Science and Economics classes, I never thought a business book would make me rethink everything I knew about building products. But here I was, completely absorbed in Eric Ries's "The Lean Startup" while my calculus homework gave me judgmental looks from across the room.</p>
                     <br />
                     
                     <h2 className="text-2l font-bold text-white mb-4">The MVP: Minimum Viable Procrastination</h2>
