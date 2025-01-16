@@ -6,9 +6,57 @@ import { BsArrowDownRight } from "react-icons/bs";
 import Image from "next/image";
 
 const blogPosts = [
-    // The lean startup
     {
         id: "01",
+        title: "Rising Queens: The Female Force Shaping Rwanda's Future",
+        excerpt: "From the halls of FAWE Girls School to the chambers of parliament, women are leading Rwanda's transformation. Here's my perspective as a young Rwandan woman witnessing this revolution.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>Sitting in my classroom at FAWE Girls School Gahini, I often find myself reflecting on what it means to be a young woman in today's Rwanda. Our walls echo with not just academic lessons, but with stories of women who've shattered glass ceilings and reshaped what's possible for girls like me.</p>
+                    <br />
+                    <p>Last month, during our school's leadership summit, Minister of Gender and Family Promotion spoke to us about the importance of dreaming bigger than our circumstances. "The future of Rwanda isn't just being built in Kigali's skyscrapers," she said, "it's being built in classrooms like this one, where young women dare to imagine themselves as leaders, innovators, and changemakers." Her words stuck with me, especially when she shared how she once sat in similar wooden chairs, doubting if her dreams were too ambitious.</p>
+                    <br />
+                    <p>Rwanda's commitment to female empowerment isn't just talk. With 61.3% female representation in our parliament – the highest in the world – we're showing the globe what's possible when you invest in women's leadership. The government's reservation of 24 seats in the Chamber of Deputies for women was just the beginning. Today, women are winning competitive seats beyond these quotas, proving that when given opportunities, we excel.</p>
+                    <br />
+                    <p>But what does this mean for us, the girls in school uniforms still figuring out our place in the world? At FAWE, we're taught that leadership isn't just about political positions – it's about taking charge of our futures. Last semester, our science club, led entirely by girls, developed a solar-powered irrigation system for our school garden. People were surprised to see teenage girls handling complex engineering calculations and soldering equipment. But why should they be? This is the new normal we're creating.</p>
+                    <br />
+                    <p>The vision of Rwanda becoming the "Singapore of Africa" isn't just an economic dream – it's a social revolution. In my community, I've witnessed this transformation firsthand. My aunt, who never finished secondary school, now runs a successful agricultural cooperative that exports coffee to Europe. She employs fifteen women, most of whom are also pursuing evening classes to complete their education. "Education doesn't have an expiration date," she always tells her employees.</p>
+                    <br />
+                    <p>But challenges remain. Some of my classmates still face pressure to prioritize early marriage over education. Others struggle with families who question the value of sending girls to school. This is why spaces like FAWE are so crucial – they show us a different reality. Here, we learn that our gender isn't a limitation but a strength. We study the same advanced mathematics and sciences as any other school, while also learning about financial literacy and entrepreneurship.</p>
+                    <br />
+                    <p>Last week, during our morning assembly, our headmistress shared something powerful: "Rwanda's transformation isn't just about building modern infrastructure – it's about building modern mindsets." She's right. As we work towards becoming the Singapore of Africa, we need more than just new buildings and technologies. We need new ways of thinking about what's possible.</p>
+                    <br />
+                    <p>To my fellow young women across Africa: our time is now. Whether you dream of becoming a surgeon, a software engineer, or starting your own company, remember that Rwanda has shown what's possible when society invests in its daughters. Your dreams aren't too big – society's imagination has been too small.</p>
+                    <br />
+                    <p>The other day, I overheard my little sister telling her friend she wants to become Rwanda's first female president. Five years ago, such a statement might have been met with laughter. Today, it's met with encouragement and strategic advice. That's the power of transformation – it changes not just what we can do, but what we can imagine doing.</p>
+                    <br />
+                    <p>As I prepare to graduate from FAWE, I carry with me not just academic knowledge, but the understanding that being a woman in Rwanda today means being part of something bigger than ourselves. We're not just students; we're pioneers, architects of a new Africa where gender equality isn't a goal but a reality.</p>
+                    <br />
+                    <p>To quote our Minister: "The question isn't whether women can lead Rwanda's transformation – we already are. The question is: what will your contribution be to this journey?"</p>
+                    <br />
+                    <p>So, I ask you: What's your dream? How will you contribute to Rwanda's vision? The floor is yours, and the possibilities are endless.</p>
+                </div>
+            },
+
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>15, December 2024 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            },
+        ]
+    },
+
+    // The lean startup
+    {
+        id: "02",
         title: "The Lean Startup",
         excerpt: "The Lean Startup: A High Schooler's Guide to Building Smart (While Procrastinating on Math Homework)",
         content: [
@@ -69,7 +117,7 @@ const blogPosts = [
     
     // Student body leader
     {
-        id: "02",
+        id: "03",
         title: "Student Body Leader 😃",
         excerpt: "Surprise! You're the Student Body Leader (While Eating Mom's Cooking)",
         content: [
@@ -130,7 +178,7 @@ const blogPosts = [
 
     // Smogy Nairobi by Dalton
     {
-        id: "03",
+        id: "04",
         title: "Literature for Joy: Good Old Smoggy Nairobi",
         excerpt: "Places are simply narratives. Mombasa was not as hot as I had imagined. It was not at all like anything I had imagined...",
         content: [
@@ -263,7 +311,7 @@ const blogPosts = [
 
     // From Eve's Substack
     {
-        id: "04",
+        id: "05",
         title: "My conspiracy theory, little new habits and a few podcasts",
         excerpt: "Consider this one a panel made of a tech conspiracy theorist and an African mother who is looking for tips to stay healthy.",
         content: [
@@ -326,7 +374,7 @@ const blogPosts = [
     
     // End of 2022. From Eve
     {
-        id: "05",
+        id: "06",
         title: "Reflections and Aspirations: Navigating the End of 2022",
         excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [
@@ -387,20 +435,62 @@ const blogPosts = [
         ]
     },
 
-    {
-        id: "06",
-        title: "My Journey to College",
-        excerpt: "As a high school senior, the college application process has been both exciting and challenging...",
-        content: "As a high school senior, the college application process has been both exciting and challenging. From researching universities to writing personal statements, each step has been a learning experience. I've discovered so much about myself and my aspirations along the way. The late nights spent perfecting essays and the anxious moments waiting for decisions have all been part of this transformative journey. Through it all, I've learned the importance of perseverance, self-reflection, and staying true to my passions. This blog post delves into my personal experiences, the lessons I've learned, and advice for fellow students embarking on their own college application journeys."
-    },
-
 
     {
         id: "07",
-        title: "Leadership in High School",
-        excerpt: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork...",
-        content: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork, responsibility, and personal growth. As president of the debate club and captain of the robotics team, I've faced challenges that have pushed me out of my comfort zone. From organizing events to motivating team members, each experience has contributed to my development as a leader. I've learned the importance of effective communication, delegation, and leading by example. This post explores the highs and lows of student leadership, offering insights into how these experiences have shaped my character and prepared me for future challenges in college and beyond."
+        title: "Man to Machine: Exploring AI Sentience Through Academic Research",
+        excerpt: "Diving into the fascinating question of AI consciousness through my senior research paper. Join me in exploring the boundaries between artificial intelligence and true sentience.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>Last semester, during my first senior trimester, I had the opportunity to write an in-depth academic paper exploring one of the most fascinating questions in artificial intelligence: Can AI achieve true sentience? With my teacher's permission, I'm excited to share some key insights from my research and analysis.</p> 
+                    <br />
+                    <p>You can read the full paper <a href="https://drive.google.com/file/d/12iaDzCSeBHgLnxe4fQ93omD3vS4I-hec/view?usp=sharing" target="_blank" rel="noopener noreferrer">here 🔗</a>.</p>
+                    <br />
+                    <p>The journey into this topic began with a simple yet profound question - the same one many of us have probably wondered about while chatting with AI assistants: "Do you feel emotions?" As our interactions with AI become increasingly sophisticated, it's crucial to examine the boundaries between human-like responses and true consciousness.</p>
+                    <br />
+                    <p>In my paper, I argue that AI's ability to carry on conversations, no matter how convincing, doesn't equate to sentience or moral agency. I explore several fascinating cases, including the notable incident of Blake Lemoine, a Google engineer who claimed their LaMDA chatbot had gained consciousness. While such claims are compelling, my research suggests that what we're actually witnessing is a sophisticated form of pattern recognition rather than true consciousness.</p>
+                    <br />
+                    <p>One of the most interesting aspects I discovered was how our human tendency for anthropomorphization plays into this debate. Just as we might see faces in clouds or attribute human-like qualities to our pets, we're naturally inclined to project consciousness onto AI systems that can engage in human-like dialogue.</p>
+                    <br />
+                    <p>The paper delves into the fundamental differences between syntactic processing (what computers do) and semantic understanding (how humans think). While AI can process language with incredible sophistication, it lacks the biophysical properties that give rise to genuine consciousness and subjective experience.</p>
+                    <br />
+                    <p>The implications of this research extend far beyond academic discourse. As AI continues to advance, understanding these distinctions becomes crucial for ethical development and responsible implementation of AI technologies in our society.</p>
+                    <br />
+                    <p>I'd love to hear your thoughts on this topic. Where do you draw the line between sophisticated AI responses and true consciousness? How do you think our relationship with AI will evolve as these systems become even more advanced?</p>
+                    <br />
+                    <p><i>About this paper: This research was conducted as part of my English coursework during my first senior trimester. I'm grateful to my teacher for allowing me to share these insights with a broader audience.</i></p>
+                </div>
+            },
+
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>12, January 2025 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2025 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            },
+        ]
     },
+    // {
+    //     id: "06",
+    //     title: "My Journey to College",
+    //     excerpt: "As a high school senior, the college application process has been both exciting and challenging...",
+    //     content: "As a high school senior, the college application process has been both exciting and challenging. From researching universities to writing personal statements, each step has been a learning experience. I've discovered so much about myself and my aspirations along the way. The late nights spent perfecting essays and the anxious moments waiting for decisions have all been part of this transformative journey. Through it all, I've learned the importance of perseverance, self-reflection, and staying true to my passions. This blog post delves into my personal experiences, the lessons I've learned, and advice for fellow students embarking on their own college application journeys."
+    // },
+
+
+    // {
+    //     id: "06",
+    //     title: "Leadership in High School",
+    //     excerpt: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork...",
+    //     content: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork, responsibility, and personal growth. As president of the debate club and captain of the robotics team, I've faced challenges that have pushed me out of my comfort zone. From organizing events to motivating team members, each experience has contributed to my development as a leader. I've learned the importance of effective communication, delegation, and leading by example. This post explores the highs and lows of student leadership, offering insights into how these experiences have shaped my character and prepared me for future challenges in college and beyond."
+    // },
 ];
 
 const BlogPost = ({ post, isExpanded, onToggle }) => {
@@ -494,10 +584,13 @@ const Blogs = () => {
                     className="mb-12"
                 >
                     <h1 className="text-4xl font-bold text-white mb-4">My Blog</h1>
-                    <p className="text-white/60">
+                    {/* <p className="text-white/60">
                         Welcome to my blog! Here, I share my travel experiences and personal reflections,
                         offering unique perspectives on the places I visit and the people I meet. Each post
                         is a journey through different landscapes, cultures, and personal growth.
+                    </p> */}
+                    <p>
+                    Welcome to my blog! Here, I share my thoughts on everything from technology to social transformation, sprinkled with personal stories of growing up in Rwanda. Through my writing, I explore diverse perspectives on culture, education, travel, and the evolving world around us. Each post is a journey through different landscapes of ideas, experiences, and personal growth, all seen through the lens of a young African dreamer.
                     </p>
                 </motion.div>
                 <motion.div 
