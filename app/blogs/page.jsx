@@ -114,10 +114,52 @@ const blogPosts = [
             },
         ]
     },
+
+    {
+        id: "03",
+        title: "Man to Machine: Exploring AI Sentience Through Academic Research",
+        excerpt: "Diving into the fascinating question of AI consciousness through my senior research paper. Join me in exploring the boundaries between artificial intelligence and true sentience.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>Last semester, during my first senior trimester, I had the opportunity to write an in-depth academic paper exploring one of the most fascinating questions in artificial intelligence: Can AI achieve true sentience? With my teacher's permission, I'm excited to share some key insights from my research and analysis.</p> 
+                    <br />
+                    <p>You can read the full paper <a href="https://drive.google.com/file/d/12iaDzCSeBHgLnxe4fQ93omD3vS4I-hec/view?usp=sharing" target="_blank" rel="noopener noreferrer">here 🔗</a>.</p>
+                    <br />
+                    <p>The journey into this topic began with a simple yet profound question - the same one many of us have probably wondered about while chatting with AI assistants: "Do you feel emotions?" As our interactions with AI become increasingly sophisticated, it's crucial to examine the boundaries between human-like responses and true consciousness.</p>
+                    <br />
+                    <p>In my paper, I argue that AI's ability to carry on conversations, no matter how convincing, doesn't equate to sentience or moral agency. I explore several fascinating cases, including the notable incident of Blake Lemoine, a Google engineer who claimed their LaMDA chatbot had gained consciousness. While such claims are compelling, my research suggests that what we're actually witnessing is a sophisticated form of pattern recognition rather than true consciousness.</p>
+                    <br />
+                    <p>One of the most interesting aspects I discovered was how our human tendency for anthropomorphization plays into this debate. Just as we might see faces in clouds or attribute human-like qualities to our pets, we're naturally inclined to project consciousness onto AI systems that can engage in human-like dialogue.</p>
+                    <br />
+                    <p>The paper delves into the fundamental differences between syntactic processing (what computers do) and semantic understanding (how humans think). While AI can process language with incredible sophistication, it lacks the biophysical properties that give rise to genuine consciousness and subjective experience.</p>
+                    <br />
+                    <p>The implications of this research extend far beyond academic discourse. As AI continues to advance, understanding these distinctions becomes crucial for ethical development and responsible implementation of AI technologies in our society.</p>
+                    <br />
+                    <p>I'd love to hear your thoughts on this topic. Where do you draw the line between sophisticated AI responses and true consciousness? How do you think our relationship with AI will evolve as these systems become even more advanced?</p>
+                    <br />
+                    <p><i>About this paper: This research was conducted as part of my English coursework during my first senior trimester. I'm grateful to my teacher for allowing me to share these insights with a broader audience.</i></p>
+                </div>
+            },
+
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>12, January 2025 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2025 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            },
+        ]
+    },
     
     // Student body leader
     {
-        id: "03",
+        id: "04",
         title: "Student Body Leader 😃",
         excerpt: "Surprise! You're the Student Body Leader (While Eating Mom's Cooking)",
         content: [
@@ -178,7 +220,7 @@ const blogPosts = [
 
     // Smogy Nairobi by Dalton
     {
-        id: "04",
+        id: "05",
         title: "Literature for Joy: Good Old Smoggy Nairobi",
         excerpt: "Places are simply narratives. Mombasa was not as hot as I had imagined. It was not at all like anything I had imagined...",
         content: [
@@ -311,7 +353,7 @@ const blogPosts = [
 
     // From Eve's Substack
     {
-        id: "05",
+        id: "06",
         title: "My conspiracy theory, little new habits and a few podcasts",
         excerpt: "Consider this one a panel made of a tech conspiracy theorist and an African mother who is looking for tips to stay healthy.",
         content: [
@@ -374,7 +416,7 @@ const blogPosts = [
     
     // End of 2022. From Eve
     {
-        id: "06",
+        id: "07",
         title: "Reflections and Aspirations: Navigating the End of 2022",
         excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [
@@ -435,48 +477,6 @@ const blogPosts = [
         ]
     },
 
-
-    {
-        id: "07",
-        title: "Man to Machine: Exploring AI Sentience Through Academic Research",
-        excerpt: "Diving into the fascinating question of AI consciousness through my senior research paper. Join me in exploring the boundaries between artificial intelligence and true sentience.",
-        content: [
-            {
-                type: "text",
-                content: 
-                <div>
-                    <p>Last semester, during my first senior trimester, I had the opportunity to write an in-depth academic paper exploring one of the most fascinating questions in artificial intelligence: Can AI achieve true sentience? With my teacher's permission, I'm excited to share some key insights from my research and analysis.</p> 
-                    <br />
-                    <p>You can read the full paper <a href="https://drive.google.com/file/d/12iaDzCSeBHgLnxe4fQ93omD3vS4I-hec/view?usp=sharing" target="_blank" rel="noopener noreferrer">here 🔗</a>.</p>
-                    <br />
-                    <p>The journey into this topic began with a simple yet profound question - the same one many of us have probably wondered about while chatting with AI assistants: "Do you feel emotions?" As our interactions with AI become increasingly sophisticated, it's crucial to examine the boundaries between human-like responses and true consciousness.</p>
-                    <br />
-                    <p>In my paper, I argue that AI's ability to carry on conversations, no matter how convincing, doesn't equate to sentience or moral agency. I explore several fascinating cases, including the notable incident of Blake Lemoine, a Google engineer who claimed their LaMDA chatbot had gained consciousness. While such claims are compelling, my research suggests that what we're actually witnessing is a sophisticated form of pattern recognition rather than true consciousness.</p>
-                    <br />
-                    <p>One of the most interesting aspects I discovered was how our human tendency for anthropomorphization plays into this debate. Just as we might see faces in clouds or attribute human-like qualities to our pets, we're naturally inclined to project consciousness onto AI systems that can engage in human-like dialogue.</p>
-                    <br />
-                    <p>The paper delves into the fundamental differences between syntactic processing (what computers do) and semantic understanding (how humans think). While AI can process language with incredible sophistication, it lacks the biophysical properties that give rise to genuine consciousness and subjective experience.</p>
-                    <br />
-                    <p>The implications of this research extend far beyond academic discourse. As AI continues to advance, understanding these distinctions becomes crucial for ethical development and responsible implementation of AI technologies in our society.</p>
-                    <br />
-                    <p>I'd love to hear your thoughts on this topic. Where do you draw the line between sophisticated AI responses and true consciousness? How do you think our relationship with AI will evolve as these systems become even more advanced?</p>
-                    <br />
-                    <p><i>About this paper: This research was conducted as part of my English coursework during my first senior trimester. I'm grateful to my teacher for allowing me to share these insights with a broader audience.</i></p>
-                </div>
-            },
-
-            {
-                type: "text",
-                content: 
-                <div> 
-                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>12, January 2025 &copy; Queen</p> 
-                    <footer className="mt-8 text-sm text-white/60">
-                        <p>&copy; 2025 Queen Merveille. All rights reserved.</p>
-                    </footer>
-                </div>
-            },
-        ]
-    },
     // {
     //     id: "06",
     //     title: "My Journey to College",
