@@ -20,7 +20,7 @@ const blogPosts = [
                     </p>
                     <br />
                     <p>
-                    I hope this message finds you well. I wanted to take a moment to share an important update about the frequency of my blog posts in the coming months. As a senior student at FAWE Girls School preparing for the Rwanda Advanced Level National Examination, I find myself at a crucial junction that requires my fullest attention and dedication.
+                    I hope this message finds you well. I wanted to take a moment to share an important update about the frequency of my blog posts in the coming months. As a senior student in my second trimester at FAWE Girls School preparing for the Rwanda Advanced Level National Examination, I find myself at a crucial junction that requires my fullest attention and dedication.
                     </p>
                     <br />
                     <p>
