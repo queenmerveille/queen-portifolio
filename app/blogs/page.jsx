@@ -55,7 +55,7 @@ const blogPosts = [
                 type: "text",
                 content: 
                 <div> 
-                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>17, January 2025 &copy; Queen</p> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>05, January 2025 &copy; Queen</p> 
                     <footer className="mt-8 text-sm text-white/60">
                         <p>&copy; 2025 Queen Merveille. All rights reserved.</p>
                     </footer>
