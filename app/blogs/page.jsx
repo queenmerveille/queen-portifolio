@@ -7,6 +7,64 @@ import Image from "next/image";
 
 const blogPosts = [
     {
+        id: "00",
+        title: "A Brief Pause 🤗🤗: Focusing on Academic Excellence",
+        excerpt: "An important update about reduced posting frequency as I balance senior year studies, national exams preparation, and leadership responsibilities at FAWE Girls School.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>
+                    Dear Valued Readers,
+                    </p>
+                    <br />
+                    <p>
+                    I hope this message finds you well. I wanted to take a moment to share an important update about the frequency of my blog posts in the coming months. As a senior student at FAWE Girls School preparing for the Rwanda Advanced Level National Examination, I find myself at a crucial junction that requires my fullest attention and dedication.
+                    </p>
+                    <br />
+                    <p>
+                    My current responsibilities include:
+                    <br />
+                    - Intensive preparation for national examinations
+                    <br />
+                    - Duties as the Student Body President
+                    <br />
+                    - Commitments to various school clubs and initiatives
+                    </p>
+                    <br />
+                    <p>
+                    While I am passionate about sharing stories and insights through this platform, I must temporarily reduce the frequency of my posts to ensure I can give my best to my academic pursuits and leadership responsibilities. This isn't goodbye – rather, it's a brief pause to focus on this critical period in my academic journey.
+                    </p>
+                    <br />
+                    <p>
+                    I plan to share updates when possible, but they will be less frequent than before. I deeply appreciate your understanding and continued support as I navigate this challenging but exciting phase of my education.
+                    </p>
+                    <br />
+                    <p>
+                    Thank you for being part of this journey, and I look forward to returning with fresh perspectives and stories to share.
+                    </p>
+                    <br />
+                    <p>
+                    Warm regards,<br />
+                    Queen
+                    </p>
+                </div>
+            },
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>17, January 2025 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2025 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            }
+        ]
+    },
+
+    {
         id: "01",
         title: "Rising Queens: The Female Force Shaping Rwanda's Future",
         excerpt: "From the halls of FAWE Girls School to the chambers of parliament, women are leading Rwanda's transformation. Here's my perspective as a young Rwandan woman witnessing this revolution.",
