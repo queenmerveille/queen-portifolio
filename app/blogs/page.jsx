@@ -126,7 +126,7 @@ const blogPosts = [
                 <div>
                     <p>Last semester, during my first senior trimester, I had the opportunity to write an in-depth academic paper exploring one of the most fascinating questions in artificial intelligence: Can AI achieve true sentience? With my teacher's permission, I'm excited to share some key insights from my research and analysis.</p> 
                     <br />
-                    <p>You can read the full paper <a href="https://drive.google.com/file/d/12iaDzCSeBHgLnxe4fQ93omD3vS4I-hec/view?usp=sharing" target="_blank" rel="noopener noreferrer">here 🔗</a>.</p>
+                    <p>You can read the full paper <a href="https://drive.google.com/file/d/12iaDzCSeBHgLnxe4fQ93omD3vS4I-hec/view?usp=sharing" target="_blank" rel="noopener noreferrer">here 👉👉 🔗</a>.</p>
                     <br />
                     <p>The journey into this topic began with a simple yet profound question - the same one many of us have probably wondered about while chatting with AI assistants: "Do you feel emotions?" As our interactions with AI become increasingly sophisticated, it's crucial to examine the boundaries between human-like responses and true consciousness.</p>
                     <br />
@@ -156,10 +156,61 @@ const blogPosts = [
             },
         ]
     },
+
+    // Together for our African Girls and Young Women
+
+    {
+        id: "04",
+        title: "Together for our African Girls and Young Women",
+        excerpt: "Exploring the complex challenges facing young women in Sub-Saharan Africa, from healthcare access to HIV prevention, and how organizations like Global Communities are working to create lasting change through comprehensive intervention programs.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <img src="/assets/african_women.webp" alt="african women" />
+                    <br />
+                    <br />
+                    <p>
+                    In Sub-Saharan Africa, the concept of gender equality remains abstract and farfetched. In this day and age, there are still girls and young women who lack access to primary and secondary school due to social, cultural, religious or political reasons; who are not yet reached with comprehensive information on their sexual and reproductive health; who are on the brink of despair due to mental health challenges and trauma; who stare at all forms of violence daily; who die as a result of AIDS-related causes; who face stigma and discrimination; who experience motherhood in childhood; who are in sex work as a primary mode of income generation; who lack confidence skills and remain fearful of venturing into leadership positions; who are excluded from economic opportunities; who are lost, off-track, invisible and completely silent; and who get infected with HIV and other sexually transmitted infections and many others.  
+                    </p>
+                    <br />
+                    <img src="/assets/african_women_clinic.webp" alt="/african women at a clinic" />
+                    <br />
+                    <p>
+                    It is no wonder that despite substantial declines in the number of new HIV infections in general populations, the epidemic among females aged 15–24 in sub-Saharan African countries remains uncontrolled, with 5,000 young women in that age group becoming infected weekly and six in seven new infections occurring among 15–19-year-old teens, according to UNAIDS’s HIV Global HIV & AIDS statistics Fact Sheet. HIV prevalence for female youth aged 15–24 is consistently higher than their male counterparts with Adolescent Girls and Young Women (AGYW) up to 14 times more likely to become HIV-infected than their male counterparts in Malawi, Zambia and Zimbabwe, according to a 2017 UNAIDS report.
+                    </p>
+                    <br />
+                    <p>
+                    Gender equality is a right and sits cardinal in securing futures of adolescent girls and young women. Fulfilling this right is the best chance we have at keeping girls and women safe, free from HIV infections and meeting their social and life goals. That is why over the last few years, Global Communities remains on the frontline centering adolescent girls and young women aged 10-24 years in Botswana, Zambia, Rwanda and Kenya in the quest to prevent new HIV infections. Collaborating with national and regional governments, local civil society organizations (CSOs), private and faith-based sectors, Global Communities has reached approximately 60,570 AGYW aged 10-24 years in Sub-Saharan Africa with a comprehensive package of interventions combining evidence-based approaches that go beyond the health sector to sustainably and directly address structural drivers and biases that increase the risk of HIV.
+                    </p>
+                    <br />
+                    <p>
+                    In many societies, public spaces are occupied mainly by men, and places to meet are limited for women and girls. We recognize this at Global Communities, and to offset this, we implement the Safe Space model for social asset building, delivery of key comprehensive HIV prevention information and mentorship with a view to empower adolescent girls and young women. This approach helps to reduce their risk, strengthen their families, mobilize communities for change and reduce the risk of men who are likely to be sex partners of AGYW.
+                    </p>
+                    <br />
+                    <p>
+                    As we celebrate this year’s International Women’s Day, we reflect on our collective action to keep girls and young women safe and mentored and to empower them to occupy the frontline positions in preparing for and securing their own futures. 
+                    </p>
+                </div>
+            },
+
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>07, March 2024 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            },
+        ]
+    },
     
     // Student body leader
     {
-        id: "04",
+        id: "05",
         title: "Student Body Leader 😃",
         excerpt: "Surprise! You're the Student Body Leader (While Eating Mom's Cooking)",
         content: [
@@ -220,8 +271,8 @@ const blogPosts = [
 
     // Smogy Nairobi by Dalton
     {
-        id: "05",
-        title: "Literature for Joy: Good Old Smoggy Nairobi",
+        id: "06",
+        title: "Good Old Smoggy Nairobi",
         excerpt: "Places are simply narratives. Mombasa was not as hot as I had imagined. It was not at all like anything I had imagined...",
         content: [
             {
@@ -353,7 +404,7 @@ const blogPosts = [
 
     // From Eve's Substack
     {
-        id: "06",
+        id: "07",
         title: "My conspiracy theory, little new habits and a few podcasts",
         excerpt: "Consider this one a panel made of a tech conspiracy theorist and an African mother who is looking for tips to stay healthy.",
         content: [
@@ -416,7 +467,7 @@ const blogPosts = [
     
     // End of 2022. From Eve
     {
-        id: "07",
+        id: "08",
         title: "Reflections and Aspirations: Navigating the End of 2022",
         excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [
@@ -476,6 +527,83 @@ const blogPosts = [
             },
         ]
     },
+
+    {
+        id: "05",
+        title: "Trusting Life's Timing: Balancing Gratitude and Aspiration",
+        excerpt: "Exploring the delicate balance between appreciating your present moment while nurturing future aspirations, this post delves into creating personal timelines, manifestation, and finding direction in life's journey.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>
+                    In this reflection, we're unpacking the delicate balance between appreciating where you are now and still wanting more for yourself in the future. Inspired by personal reflections and insights from therapy, we dive into the real work of trusting life's timing. We touch on some big themes—crafting your own timeline, manifesting your goals, finding direction when you feel lost, and the beauty of life's little "side quests."
+                    </p>
+                    <br />
+                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">How to Create Your Own Timeline</h2>
+                    <h3 className="text-2l font-bold text-white mb-4">Free Yourself from External Pressures</h3>
+                    <p>
+                    One of the keys to finding contentment is living life on your own schedule. Not the one society, your family, or social media says you should follow. This means focusing on what truly makes you happy and brings you peace, instead of chasing after milestones or deadlines just because you think you should hit them by a certain age.
+                    </p>
+                    <br />
+                    <h3 className="text-2l font-bold text-white mb-4">Embrace Your Unique Timing</h3>
+                    <p>
+                    You may not always hit your goals when you planned to, but I promise those delays usually work in your favor. Looking back at what my 16-year-old self wanted, I realize how limited my perspective was back then. But that phase was important—it helped set me up for a future filled with even more opportunities and experiences than I could have imagined.
+                    </p>
+                    <br />
+                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">Manifesting in Alignment with Your Timing</h2>
+                    <h3 className="text-2l font-bold text-white mb-4">Getting Your Feelings and Goals on the Same Page</h3>
+                    <p>
+                    When it comes to manifestation, we often talk about putting energy into what we want. But there's another part to it that's tricky—aligning how we feel with what we're trying to manifest. It's hard to call in financial stability, for example, when you're feeling stressed about money. So, how do you feel at peace with where you are now while still aiming for more? That's the sweet spot for manifestation.
+                    </p>
+                    <br />
+                    <h3 className="text-2l font-bold text-white mb-4">Aligned Action: The Key to Manifestation</h3>
+                    <p>
+                    Of course, it's not just about thinking positive thoughts. Manifestation requires action. Whether it's taking a course to gain new skills or making a savings plan for your big move, those tangible steps are what transform dreams into reality. It's all about putting yourself in a position to receive what you're working toward.
+                    </p>
+                    <br />
+                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">Regaining Direction When You Feel Off-Track</h2>
+                    <h3 className="text-2l font-bold text-white mb-4">Dealing with Life's Detours</h3>
+                    <p>
+                    Let's be real—life doesn't always go as planned, and when you feel off-track, it's easy to spiral. That's why I introduced the "Now What?" theory. Picture yourself having exactly what you're longing for, and answer the question "Now What?"
+                    </p>
+                    <p>
+                    Instead of getting stuck in the feeling of "I don't know what's next," this mindset shift helps you recognize your past accomplishments and use them as fuel to figure out what comes next. It's about keeping your momentum, even when things don't look exactly how you thought they would.
+                    </p>
+                    <br />
+                    <h3 className="text-2l font-bold text-white mb-4">Turning Longing into Anticipation</h3>
+                    <p>
+                    Rather than sitting in the frustration of longing for something you haven't achieved yet, I encourage you to see it as preparation. When you shift your mindset to view the waiting period as part of the journey, you can actually get excited about what's coming—even if it feels far off.
+                    </p>
+                    <br />
+                    <h3 className="text-2l font-bold text-white mb-4">Focusing on the Process, Not the Destination</h3>
+                    <p>
+                    I'm a big believer that life is more about the journey than the destination. When you focus on growth and who you're becoming rather than just what you're achieving, you unlock a deeper sense of joy and fulfillment. Life is random, filled with unexpected twists and turns, and honestly, that's what makes it interesting.
+                    </p>
+                    <br />
+                    <h2 className="text-2l font-bold text-white mb-4">Letting Go of Society's Deadlines</h2>
+                    <p>
+                    Societal pressure tells us that we need to hit certain milestones by a specific age, and if we don't, we've somehow fallen behind. But here's the thing—these timelines are based on the actions of prior generations that had fewer options, which led to earlier achievements. Our generation has more opportunities, but that can also feel overwhelming. Trusting your own timeline instead of society's expectations can help you feel more at peace with where you are right now.
+                    </p>
+                    <br />
+                    <p>
+                    I encourage you to appreciate the beauty of your individual journey. Life's path isn't always a straight line, and that's okay. By trusting your timing, aligning your actions with your goals, and celebrating the process of becoming, you can find the balance between gratitude for where you are and aspiration for what's next.
+                    </p>
+                </div>
+            },
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>26, December 2024 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            }
+        ]
+    }
 
     // {
     //     id: "06",
