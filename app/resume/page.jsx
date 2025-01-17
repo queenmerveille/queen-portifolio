@@ -105,12 +105,12 @@ const experience = {
     {
       company: "Tecno Mobile Rwanda",
       position: "Software Engineer Intern",
-      duration: "July 2022 - March 2023",
+      duration: "July 2022 - September 2022",
     },
     {
       company: "Equity Bank Limited",
       position: "Banking Fellow",
-      duration: "Nov 2020 – Feb 2021",
+      duration: "Nov 2020 – Nov 2020",
     },
   ]
 };
