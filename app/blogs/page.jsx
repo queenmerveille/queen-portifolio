@@ -330,7 +330,7 @@ const blogPosts = [
     // Smogy Nairobi by Dalton
     {
         id: "06",
-        title: "Good Old Smoggy Nairobi",
+        title: "My trip to Good Old Smoggy Nairobi",
         excerpt: "Places are simply narratives. Mombasa was not as hot as I had imagined. It was not at all like anything I had imagined...",
         content: [
             {
@@ -358,7 +358,7 @@ const blogPosts = [
                 content: [
                     {
                         type: "text",
-                        content: "With my duffel packed I headed for the train station that was far far away from the CBD. Of course, as most other bourgeoise people are, I was in economy class. Seats in SGR's economy coaches face each other so after a few greetings with the people I was seated with, we all found things to stare at to avoid staring at each other. I chose to look out the window seeing as I was on the window seat."
+                        content: "With my duffel packed I headed for the train station that was far far away from the CBD. Of course, as most other bourgeoise people are, I was in economy class. Seats in SGR's economy coaches face each other so after a few greetings with the people I was seated with, we all found things to stare at to avoid staring at each other. I chose to look out the window seeing (Everyone could tell it was my first time in the train!!. There are no railways in Rwanda, my home country) as I was on the window seat."
                     },
                     {
                         type: "image",
@@ -600,17 +600,17 @@ const blogPosts = [
                     <br />
                     <p>Anyway, Happy New Month. As late as this sounds, I wish you a joyous wrap of the year. Take time to appreciate those around you, and please tell them! Let’s make sure people around us know we love them.</p>
                     <br />
-                    <p>As this year ends, I see a lot of content out there cheering us on to plan for next year. I definitely encourage this, too, but since I opened this newsletter mainly to share a gap year experience, I’d like to share a few thoughts on planning the year ahead.</p>
+                    <p>As this year ends, I see a lot of content out there cheering us on to plan for next year. I definitely encourage this, too, but since I opened this newsletter mainly to share my highshool experience, I’d like to share a few thoughts on planning the year ahead.</p>
                     <br />
-                    <p>Firstly, remember that we are essentially empty vessels. We’ve been in high school for 4-5 years, and for those who experienced a system like mine, there’s a lot our education didn’t cover. I hope that we plan to learn new things that hone our skills. We have a whole year before deciding what to study in university (if that’s your choice), and there’s a wide world to understand. It’s up to us to seek knowledge about the world and its workings and then choose a path to shape us into beings who will build better lives for ourselves and the world. Skills like marketing and coding can take you far, but if you know more, please learn and use them to your advantage. Capitalism is the lemon we shall make lemonades from.</p>
+                    <p>Firstly, remember that we are essentially <strong className="text-2l font-bold text-white">empty vessels</strong>. We’ve been in high school for 4-5 years, and for those who experienced a system like mine, there’s a lot our education didn’t cover. I hope that we plan to learn new things that hone our skills. We have a whole year before deciding what to study in university (if that’s your choice), and there’s a wide world to understand. It’s up to us to seek knowledge about the world and its workings and then choose a path to shape us into beings who will build better lives for ourselves and the world. Skills like marketing and coding can take you far, but if you know more, please learn and use them to your advantage. Capitalism is the lemon we shall make lemonades from.</p>
                     <br />
                     <p>Secondly, use what you have. A trending video of Rwandan content creators celebrating 250 stories in Rwanda amazed me. Most are young; some have 9-5 jobs, others are students, and some are taking a gap year. They found their interests and talents and leveraged them to create content. Some, like my role model Murungi Sarah (say hi if you know her), are dedicating more time to it, hopefully building better generations of goal-oriented Africans who will also provide for their future. My biggest hope is that we, the younger generation, work hard to design and work towards lives that bring fulfillment and build our nations.</p>
                     <br />
-                    <p>Last but not least, hop on adventures. We are young! As much as I hate saying YOLO, I sometimes subscribe to the idea that I only live once. It’s wise that occasionally, we take adventures and see what the world has to offer. I’m not saying it’s not costly; some adventures are financially consuming. However, I’ve learned that you can do much within your means, so please do! For instance, starting a YouTube channel with just your phone can showcase your passion. I believe we learn more by doing than by planning to do.</p>
+                    <p>Last but not least, <strong className="text-2l font-bold text-white">hop on adventures. We are young!</strong> As much as I hate saying YOLO, I sometimes subscribe to the idea that I only live once. It’s wise that occasionally, we take adventures and see what the world has to offer. I’m not saying it’s not costly; some adventures are financially consuming. However, I’ve learned that you can do much within your means, so please do! For instance, starting a YouTube channel with just your phone can showcase your passion. I believe we learn more by doing than by planning to do.</p>
                     <br />
-                    <p>Above everything else, be grateful. As a Christian, thanking God has recently been crucial in my life. Life happens, for better or worse, but our experiences are testimonies for others. So why not be grateful that my life is a collection of events serving me and others?</p>
+                    <p>Above everything else, <strong className="text-2l font-bold text-white">be grateful</strong>. As a Christian, thanking God has recently been crucial in my life. Life happens, for better or worse, but our experiences are testimonies for others. So why not be grateful that my life is a collection of events serving me and others?</p>
                     <br />
-                    <p>There is a lot I feel like we should do next year, but I leave it to you to explore more on what you can do with your talents and resources. Leverage all of that to create a life that makes you happy.</p>
+                    <p>There is a lot I feel like we should do next year, but I leave it to you to <strong className="text-2l font-bold text-white">explore more on what you can do with your talents and resources. Leverage all of that to create a life that makes you happy.</strong></p>
                     <br />
                     <p>For the older generations reading this, feel free to share any advice or opinions (even if they are opposing).</p>
                     <br />
@@ -618,13 +618,13 @@ const blogPosts = [
                     <br />
                     <ol className="list-decimal pl-6 mt-4 space-y-4">
                         <li>
-                            “Bundle of Trouble (A Humorous Cozy Mystery)”: This book showed me that, no matter how busy we are, if we choose to learn, we can find time.
+                            <strong className="text-2l font-bold text-white">“Bundle of Trouble (A Humorous Cozy Mystery)”:</strong> This book showed me that, no matter how busy we are, if we choose to learn, we can find time.
                         </li>
                         <li>
-                            “Escape the victim trap: Raise your standards” | Goal’d in Africa podcast x Zuba Mutesi
+                        <strong className="text-2l font-bold text-white">“Escape the victim trap: Raise your standards”</strong> | Goal’d in Africa podcast x Zuba Mutesi
                         </li>
                         <li>
-                            “How to Shoot Your Shot the Right Way” | Malik Shaffy x Goal’d in Africa
+                        <strong className="text-2l font-bold text-white">“How to Shoot Your Shot the Right Way”</strong> | Malik Shaffy x Goal’d in Africa
                         </li>
                     </ol>
                     <br />
