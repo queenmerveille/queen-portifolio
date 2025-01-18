@@ -522,10 +522,69 @@ const blogPosts = [
             },
         ]
     },
+
+    // The need to write from PG
+
+    {
+        id: "08",
+        title: "The Need to Read 📚",
+        excerpt: "Everyone, young or old needs to read. The time you stop learning is the same time you stop living",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>November 2022</p>
+                    <br />
+                    <p>
+                        In the science fiction books I read as a kid, reading had often been replaced by some more efficient way of acquiring knowledge. Mysterious "tapes" would load it into one's brain like a program being loaded into a computer.
+                    </p>
+                    <br />
+                    <p>
+                        That sort of thing is unlikely to happen anytime soon. Not just because it would be hard to build a replacement for reading, but because even if one existed, it would be insufficient. Reading about x doesn't just teach you about x; it also teaches you how to write.
+                    </p>
+                    <br />
+                    <p>
+                        Would that matter? If we replaced reading, would anyone need to be good at writing?
+                    </p>
+                    <br />
+                    <p>
+                        The reason it would matter is that writing is not just a way to convey ideas, but also a way to have them.
+                    </p>
+                    <br />
+                    <p>
+                        A good writer doesn't just think, and then write down what he thought, as a sort of transcript. A good writer will almost always discover new things in the process of writing. And there is, as far as I know, no substitute for this kind of discovery. Talking about your ideas with other people is a good way to develop them. But even after doing this, you'll find you still discover new things when you sit down to write. There is a kind of thinking that can only be done by writing.
+                    </p>
+                    <br />
+                    <p>
+                        There are of course kinds of thinking that can be done without writing. If you don't need to go too deeply into a problem, you can solve it without writing. If you're thinking about how two pieces of machinery should fit together, writing about it probably won't help much. And when a problem can be described formally, you can sometimes solve it in your head. But if you need to solve a complicated, ill-defined problem, it will almost always help to write about it. Which in turn means that someone who's not good at writing will almost always be at a disadvantage in solving such problems.
+                    </p>
+                    <br />
+                    <p>
+                        You can't think well without writing well, and you can't write well without reading well. And I mean that last "well" in both senses. You have to be good at reading, and read good things.
+                    </p>
+                    <br />
+                    <p>
+                        People who just want information may find other ways to get it. But people who want to have ideas can't afford to.
+                    </p>
+                </div>
+            },
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>08, Novemeber 2022 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2022 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            }
+        ]
+    },
     
     // End of 2022. From Eve
     {
-        id: "08",
+        id: "09",
         title: "Reflections and Aspirations: Navigating the End of 2022",
         excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [
@@ -543,7 +602,7 @@ const blogPosts = [
                     <br />
                     <p>As this year ends, I see a lot of content out there cheering us on to plan for next year. I definitely encourage this, too, but since I opened this newsletter mainly to share a gap year experience, I’d like to share a few thoughts on planning the year ahead.</p>
                     <br />
-                    <p>Firstly, remember that we are essentially empty vessels. We’ve been in school for 6-7 years, and for those who experienced a system like mine, there’s a lot our education didn’t cover. I hope that we plan to learn new things that hone our skills. We have a whole year before deciding what to study in university (if that’s your choice), and there’s a wide world to understand. It’s up to us to seek knowledge about the world and its workings and then choose a path to shape us into beings who will build better lives for ourselves and the world. Skills like marketing and coding can take you far, but if you know more, please learn and use them to your advantage. Capitalism is the lemon we shall make lemonades from.</p>
+                    <p>Firstly, remember that we are essentially empty vessels. We’ve been in high school for 4-5 years, and for those who experienced a system like mine, there’s a lot our education didn’t cover. I hope that we plan to learn new things that hone our skills. We have a whole year before deciding what to study in university (if that’s your choice), and there’s a wide world to understand. It’s up to us to seek knowledge about the world and its workings and then choose a path to shape us into beings who will build better lives for ourselves and the world. Skills like marketing and coding can take you far, but if you know more, please learn and use them to your advantage. Capitalism is the lemon we shall make lemonades from.</p>
                     <br />
                     <p>Secondly, use what you have. A trending video of Rwandan content creators celebrating 250 stories in Rwanda amazed me. Most are young; some have 9-5 jobs, others are students, and some are taking a gap year. They found their interests and talents and leveraged them to create content. Some, like my role model Murungi Sarah (say hi if you know her), are dedicating more time to it, hopefully building better generations of goal-oriented Africans who will also provide for their future. My biggest hope is that we, the younger generation, work hard to design and work towards lives that bring fulfillment and build our nations.</p>
                     <br />
@@ -587,7 +646,7 @@ const blogPosts = [
     },
 
     {
-        id: "05",
+        id: "10",
         title: "Trusting Life's Timing: Balancing Gratitude and Aspiration",
         excerpt: "Exploring the delicate balance between appreciating your present moment while nurturing future aspirations, this post delves into creating personal timelines, manifestation, and finding direction in life's journey.",
         content: [
