@@ -472,7 +472,7 @@ const blogPosts = [
             },
             {
                 type: "text",
-                content: <p>Recently, I have been obsessed with Trevor Noah's <strong>"What Now,"</strong> and my favorite episodes are the ones he has with his friends; they are hilarious but also very insightful. In one of the episodes, they talked about TikTok being Banned in the US. That conversation led to one of them talking about how social media algorithms can narrow our perspectives, not just in terms of attention spans but also by reinforcing our existing beliefs. Even if those beliefs are misguided, algorithms keep feeding us similar content, creating echo chambers that limit our exposure to diverse viewpoints. This can lead to unhealthy obsessions and, in some cases, even draw individuals into harmful communities, like the ongoing Twin Flame cult. I delved into research and discovered that social media platforms can inadvertently become magnets for individuals seeking answers to their desperation. Influencers capitalize on this vulnerability, creating communities that seem to offer solace but often lead to further disillusionment, and unfortunately for some, it becomes their demise.</p>
+                content: <p>Recently, I have been obsessed with Trevor Noah's <strong className="text-2l font-bold text-white">"What Now,"</strong> and my favorite episodes are the ones he has with his friends; they are hilarious but also very insightful. In one of the episodes, they talked about TikTok being Banned in the US. That conversation led to one of them talking about how social media algorithms can narrow our perspectives, not just in terms of attention spans but also by reinforcing our existing beliefs. Even if those beliefs are misguided, algorithms keep feeding us similar content, creating echo chambers that limit our exposure to diverse viewpoints. This can lead to unhealthy obsessions and, in some cases, even draw individuals into harmful communities, like the ongoing Twin Flame cult. I delved into research and discovered that social media platforms can inadvertently become magnets for individuals seeking answers to their desperation. Influencers capitalize on this vulnerability, creating communities that seem to offer solace but often lead to further disillusionment, and unfortunately for some, it becomes their demise.</p>
             },
             {
                 type: "text",
@@ -480,13 +480,13 @@ const blogPosts = [
                     <p>Despite reflecting on the negative aspects of social media and deciding to quit certain apps, I also decided to embrace some positive habits recommended by social media for 3 months now. Here are a few; hopefully, you will try them too:</p>
                     <ol className="list-decimal pl-6 mt-4 space-y-4">
                         <li>
-                            <strong>Reading a book in the morning sun:</strong> This habit has helped me get out of my longest reading slump. I never looked forward to reading, but it feels much more interesting to sit outside for 30 minutes to 1 hour with a book and a not-so-cold, hot sun appearing. In terms of mood, let me tell YOU, I have never felt better, and it is easy for me to differentiate days where I did that exercise through things like my productivity at work, mood while interacting with others, and many more. Now that I think of it, I should research more on the morning sun and my serotonin levels and how they work together.
+                            <strong className="text-2l font-bold text-white">Reading a book in the morning sun:</strong> This habit has helped me get out of my longest reading slump. I never looked forward to reading, but it feels much more interesting to sit outside for 30 minutes to 1 hour with a book and a not-so-cold, hot sun appearing. In terms of mood, let me tell YOU, I have never felt better, and it is easy for me to differentiate days where I did that exercise through things like my productivity at work, mood while interacting with others, and many more. Now that I think of it, I should research more on the morning sun and my serotonin levels and how they work together.
                         </li>
                         <li>
-                            <strong>Journaling:</strong> Now, this is controversial, mainly coming from me, but friends, I am a changed woman. Surprisingly, it has become a valuable outlet for my thoughts and ideas, allowing me to declutter my mind and foster self-awareness. I bought a plain green notebook and transformed it into a second brain for my innermost thoughts and reflections. Most importantly, it allows my mind to explore new thoughts and ideas without fear of forgetting. So yeah, kids, buy a notebook and journal; your self-awareness will thank me later.
+                            <strong className="text-2l font-bold text-white">Journaling:</strong> Now, this is controversial, mainly coming from me, but friends, I am a changed woman. Surprisingly, it has become a valuable outlet for my thoughts and ideas, allowing me to declutter my mind and foster self-awareness. I bought a plain green notebook and transformed it into a second brain for my innermost thoughts and reflections. Most importantly, it allows my mind to explore new thoughts and ideas without fear of forgetting. So yeah, kids, buy a notebook and journal; your self-awareness will thank me later.
                         </li>
                         <li>
-                            <strong>Hydrating:</strong> as an ex-professional bloating human, the worst gut health that would land me in a hospital bed at least once in 2 months, I decided to start drinking water, with a minimum of 2 liters and a glass of warm water in the morning. This is not about losing weight but instead about nourishing my body and preventing health issues.
+                            <strong className="text-2l font-bold text-white">Hydrating:</strong> as an ex-professional bloating human, the worst gut health that would land me in a hospital bed at least once in 2 months, I decided to start drinking water, with a minimum of 2 liters and a glass of warm water in the morning. This is not about losing weight but instead about nourishing my body and preventing health issues.
                         </li>
                     </ol>
                 </div>
@@ -497,13 +497,13 @@ const blogPosts = [
                     <p>To conclude, I want to recommend some content that has been enriching my life lately:</p>
                     <ul className="list-disc pl-6 mt-4 space-y-4">
                         <li>
-                            <strong>Trevor Noah's "What Now?"</strong> podcast, especially the episodes featuring his friends, offers witty insights into complex issues.
+                            <strong className="text-2l font-bold text-white">Trevor Noah's "What Now?"</strong> podcast, especially the episodes featuring his friends, offers witty insights into complex issues.
                         </li>
                         <li>
-                            <strong>Hidden Brain</strong> by Shankar Vedantam is just a collection of topics that you would typically think are shallow, but they have depth to them, and professionals in each field sit down with Mr. Vedantam to discuss them. I have been listening to it since 2020.
+                            <strong className="text-2l font-bold text-white">Hidden Brain</strong> by Shankar Vedantam is just a collection of topics that you would typically think are shallow, but they have depth to them, and professionals in each field sit down with Mr. Vedantam to discuss them. I have been listening to it since 2020.
                         </li>
                         <li>
-                            <strong>The Kwibuka Podcast,</strong> on the podcast the host discusses the role of different people in the 1994 genocide against the Tutsi in Rwanda. It Is essential to listen to stay educated and combat genocide denial.
+                            <strong className="text-2l font-bold text-white">The Kwibuka Podcast,</strong> on the podcast the host discusses the role of different people in the 1994 genocide against the Tutsi in Rwanda. It Is essential to listen to stay educated and combat genocide denial.
                         </li>
                     </ul>
                 </div>
