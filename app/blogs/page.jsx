@@ -116,16 +116,16 @@ const blogPosts = [
     {
         id: "02",
         title: "The Lean Startup",
-        excerpt: "The Lean Startup: A High Schooler's Guide to Building Smart (While Procrastinating on Math Homework)",
+        excerpt: "The Lean Startup: A Highschooler's Guide to Building Smart (While Procrastinating on Math Homework)",
         content: [
             {
                 type: "text",
                 content: 
                 <div>
-                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">The Lean Startup: A High Schooler's Guide to Building Smart (While Procrastinating on Math Homework)</h2>
+                    <h2 className="text-2xl font-bold text-white mb-4 pl-16">The Lean Startup: A Highschooler's Guide to Building Smart (While Procrastinating on Math Homework)</h2>
                     
                     <h2 className="text-2l font-bold text-white mb-4">The Book that Changed My Perspective</h2>
-                    <p>As a high school student juggling Advanced Mathematics, Computer Science and Economics classes, I never thought a business book would make me rethink everything I knew about building products. But here I was, completely absorbed in Eric Ries's "The Lean Startup" while my calculus homework gave me judgmental looks from across the room.</p>
+                    <p>As a highschool student juggling Advanced Mathematics, Computer Science and Economics classes, I never thought a business book would make me rethink everything I knew about building products. But here I was, completely absorbed in Eric Ries's "The Lean Startup" while my calculus homework gave me judgmental looks from across the room.</p>
                     <br />
                     
                     <h2 className="text-2l font-bold text-white mb-4">The MVP: Minimum Viable Procrastination</h2>
@@ -137,7 +137,7 @@ const blogPosts = [
                     <br />
                     
                     <h2 className="text-2l font-bold text-white mb-4">Key Takeaways for a Teen Entrepreneur</h2>
-                    <p>Reading this book as a high school student gave me a unique perspective. Here are the main lessons that resonated with my inner tech enthusiast and aspiring economist:</p>
+                    <p>Reading this book as a highschool student gave me a unique perspective. Here are the main lessons that resonated with my inner tech enthusiast and aspiring economist:</p>
                     <ol className="list-decimal pl-16 mt-4 space-y-4">
                         <li>
                             Validate assumptions early - Just like testing code, test your business ideas before going all in
@@ -154,11 +154,11 @@ const blogPosts = [
                     </ol>
                     <br />
                     
-                    <h2 className="text-2l font-bold text-white mb-4">Applying Lean Principles to High School Life</h2>
+                    <h2 className="text-2l font-bold text-white mb-4">Applying Lean Principles to Highschool Life</h2>
                     <p>I've started implementing these principles in my school projects. For our upcoming Computer Science fair, I'm using the MVP approach - starting with a basic prototype and iterating based on feedback from my classmates. Even my Economics project on market analysis is benefiting from the Lean Startup's emphasis on validated learning.</p>
                     <br />
                     
-                    <p>The Lean Startup isn't just for Silicon Valley entrepreneurs - it's for anyone who wants to build something meaningful while minimizing waste. As a high school student straddling the worlds of Computer Science and Economics, these principles have given me a framework for approaching problems and projects more efficiently.</p>
+                    <p>The Lean Startup isn't just for Silicon Valley entrepreneurs - it's for anyone who wants to build something meaningful while minimizing waste. As a highschool student straddling the worlds of Computer Science and Economics, these principles have given me a framework for approaching problems and projects more efficiently.</p>
                     <p>Now, if you'll excuse me, I need to apply some validated learning to my pending math homework...</p>
                     <br />
                     
@@ -602,7 +602,7 @@ const blogPosts = [
                     <br />
                     <p>As this year ends, I see a lot of content out there cheering us on to plan for next year. I definitely encourage this, too, but since I opened this newsletter mainly to share my highshool experience, I’d like to share a few thoughts on planning the year ahead.</p>
                     <br />
-                    <p>Firstly, remember that we are essentially <strong className="text-2l font-bold text-white">empty vessels</strong>. We’ve been in high school for 4-5 years, and for those who experienced a system like mine, there’s a lot our education didn’t cover. I hope that we plan to learn new things that hone our skills. We have a whole year before deciding what to study in university (if that’s your choice), and there’s a wide world to understand. It’s up to us to seek knowledge about the world and its workings and then choose a path to shape us into beings who will build better lives for ourselves and the world. Skills like marketing and coding can take you far, but if you know more, please learn and use them to your advantage. Capitalism is the lemon we shall make lemonades from.</p>
+                    <p>Firstly, remember that we are essentially <strong className="text-2l font-bold text-white">empty vessels</strong>. We’ve been in highschool for 4-5 years, and for those who experienced a system like mine, there’s a lot our education didn’t cover. I hope that we plan to learn new things that hone our skills. We have a whole year before deciding what to study in university (if that’s your choice), and there’s a wide world to understand. It’s up to us to seek knowledge about the world and its workings and then choose a path to shape us into beings who will build better lives for ourselves and the world. Skills like marketing and coding can take you far, but if you know more, please learn and use them to your advantage. Capitalism is the lemon we shall make lemonades from.</p>
                     <br />
                     <p>Secondly, use what you have. A trending video of Rwandan content creators celebrating 250 stories in Rwanda amazed me. Most are young; some have 9-5 jobs, others are students, and some are taking a gap year. They found their interests and talents and leveraged them to create content. Some, like my role model Murungi Sarah (say hi if you know her), are dedicating more time to it, hopefully building better generations of goal-oriented Africans who will also provide for their future. My biggest hope is that we, the younger generation, work hard to design and work towards lives that bring fulfillment and build our nations.</p>
                     <br />
@@ -725,14 +725,14 @@ const blogPosts = [
     // {
     //     id: "06",
     //     title: "My Journey to College",
-    //     excerpt: "As a high school senior, the college application process has been both exciting and challenging...",
-    //     content: "As a high school senior, the college application process has been both exciting and challenging. From researching universities to writing personal statements, each step has been a learning experience. I've discovered so much about myself and my aspirations along the way. The late nights spent perfecting essays and the anxious moments waiting for decisions have all been part of this transformative journey. Through it all, I've learned the importance of perseverance, self-reflection, and staying true to my passions. This blog post delves into my personal experiences, the lessons I've learned, and advice for fellow students embarking on their own college application journeys."
+    //     excerpt: "As a highschool senior, the college application process has been both exciting and challenging...",
+    //     content: "As a highschool senior, the college application process has been both exciting and challenging. From researching universities to writing personal statements, each step has been a learning experience. I've discovered so much about myself and my aspirations along the way. The late nights spent perfecting essays and the anxious moments waiting for decisions have all been part of this transformative journey. Through it all, I've learned the importance of perseverance, self-reflection, and staying true to my passions. This blog post delves into my personal experiences, the lessons I've learned, and advice for fellow students embarking on their own college application journeys."
     // },
 
 
     // {
     //     id: "06",
-    //     title: "Leadership in High School",
+    //     title: "Leadership in Highschool",
     //     excerpt: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork...",
     //     content: "Taking on leadership roles in various school clubs has taught me valuable lessons about teamwork, responsibility, and personal growth. As president of the debate club and captain of the robotics team, I've faced challenges that have pushed me out of my comfort zone. From organizing events to motivating team members, each experience has contributed to my development as a leader. I've learned the importance of effective communication, delegation, and leading by example. This post explores the highs and lows of student leadership, offering insights into how these experiences have shaped my character and prepared me for future challenges in college and beyond."
     // },
