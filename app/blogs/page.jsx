@@ -527,7 +527,7 @@ const blogPosts = [
 
     {
         id: "08",
-        title: "The Need to Read 📚",
+        title: "The Need to Read 📚📚",
         excerpt: "Everyone, young or old needs to read. The time you stop learning is the same time you stop living",
         content: [
             {
