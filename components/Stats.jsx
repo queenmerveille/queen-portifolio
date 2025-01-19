@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 const stats = [
     {
         num: 1,
-        text: "2021 Presidential Youth Award",
+        text: "2023 Presidential Youth Award",
     },
     {
         num: 1,
