@@ -215,10 +215,106 @@ const blogPosts = [
         ]
     },
 
-    // Together for our African Girls and Young Women
+    // Pakinsons
 
     {
         id: "04",
+        title: "Beyond the Tremors: Redefining Parkinson's Disease in African Society",
+        excerpt: "A deep dive into the intersection of Parkinson's Disease, cultural stigma in Africa, and the power of changing narratives. From Michael J. Fox's inspiring journey to local stories of resilience, we explore how understanding and compassion can transform lives.",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p>
+                    "Lucky" isn't a word most people would associate with Parkinson's Disease. Yet, in his memoir "Always Looking Up," Michael J. Fox writes, "If you were to rush into this room right now and announce that you had struck a deal—with God, Allah, Buddha, Christ, Krishna, Bill Gates, whomever—in which the ten years since my diagnosis could be magically taken away... I would, without a moment's hesitation, tell you to take a hike." His words stand in stark contrast to how we view neurological conditions in many African communities, where people with Parkinson's are often hidden away, labeled as "umusazi" (mad person), and stripped of their dignity.
+                    </p>
+                    <br />
+                    <h2>The Journey That Led Me Here</h2>
+                    <p>
+                    My journey into understanding neurological disorders began with my mother's battle with Thrombosis. Watching her navigate our healthcare system opened my eyes to a world where medical conditions often carry more than just physical burdens—they carry the weight of societal misunderstanding and stigma. This personal experience, combined with my recent viewing of "STILL: A Michael J. Fox Movie," has compelled me to share a broader perspective on how we view and treat people with Parkinson's Disease in our African communities.
+                    </p>
+                    <br />
+                    <h2>Understanding Parkinson's: Beyond the Visible Symptoms</h2>
+                    <p>
+                    According to the World Health Organization, Parkinson's Disease affects millions globally, with an estimated 100,000 cases in East Africa alone. Yet, in our communities, the visible symptoms—tremors, rigid muscles, and balance problems—often lead to misunderstandings and social isolation. Dr. Aisha Mohammed, a neurologist at Kenyatta National Hospital, shares, "Many patients come to us years after their first symptoms, not because they didn't notice changes, but because they feared being labeled as cursed or mad."
+                    </p>
+                    <br />
+                    <h2>Global Voices, Local Impact</h2>
+                    <p>
+                    The contrast between global and local perspectives on Parkinson's is striking. While Michael J. Fox established his foundation, raising over $1.5 billion for research and creating a global support network, many African communities still lack basic understanding of the condition. Muhammad Ali, another prominent figure who lived with Parkinson's, once said, "Don't count the days, make the days count." Yet, for many patients in our communities, each day is counted in moments of isolation and misunderstanding.
+                    </p>
+                    <br />
+                    <h2>Cultural Barriers and Medical Realities</h2>
+                    <p>
+                    During my visits to various communities in Kenya and here in Rwanda, I've witnessed firsthand how cultural beliefs impact healthcare access. Traditional healers often become the first point of contact, sometimes leading to delayed medical intervention. Dr. James Okello, a researcher at the University of Rwanda, notes, "The intersection of traditional beliefs and modern medicine creates a unique challenge in treating Parkinson's in Africa. We need to build bridges, not walls, between these different approaches to healing."
+                    </p>
+                    <br />
+                    <h2>Stories of Change: From Shadows to Light</h2>
+                    <p>
+                    Consider Mama Jeannette from Musanze, who lived with undiagnosed Parkinson's for eight years. Initially, her community attributed her tremors to "bad spirits." Today, she leads a support group for PD patients, showing that understanding and proper medical care can transform lives. "At first, I was ashamed," she says. "Now I know that my condition doesn't define me—my response to it does."
+                    </p>
+                    <br />
+                    <h2>The Role of Education and Community Support</h2>
+                    <p>
+                    Through Partners in Health, the organization I founded while still a high school student at FAWE Girls School, we've learned that community education is crucial. We organize workshops where medical professionals explain the science behind Parkinson's, while former patients share their experiences. This combination of scientific knowledge and personal stories has proven powerful in changing perceptions.
+                    </p>
+                    <br />
+                    <h2>Lessons from Global Advocates</h2>
+                    <p>
+                    Michael J. Fox's approach to living with Parkinson's offers valuable lessons. In his book "No Time Like the Future," he emphasizes the importance of community support and maintaining optimism while acknowledging challenges. Similarly, Davis Phinney, former Olympic cyclist and Parkinson's advocate, speaks about the power of exercise and staying engaged with life. These insights are universal, transcending cultural boundaries.
+                    </p>
+                    <br />
+                    <h2>Scientific Progress and African Healthcare</h2>
+                    <p>
+                    Recent medical advancements in Parkinson's treatment, from deep brain stimulation to new medications, show promise. However, access to these treatments remains limited in Africa. Dr. Fiona Mutabazi at King Faisal Hospital notes, "While we're seeing incredible scientific progress globally, our focus must be on making basic care and medication accessible to all patients, regardless of their location or economic status."
+                    </p>
+                    <br />
+                    <h2>Building a New Framework</h2>
+                    <p>
+                    To create lasting change, we need a multi-faceted approach:
+                    - Community Education: Regular workshops and information sessions
+                    - Healthcare Access: Improved screening and treatment facilities
+                    - Support Networks: Creating safe spaces for patients and families
+                    - Cultural Integration: Working with traditional leaders and healers
+                    - Policy Advocacy: Pushing for better healthcare coverage and support
+                    </p>
+                    <br />
+                    <h2>The Path Forward</h2>
+                    <p>
+                    The transformation we seek goes beyond medical treatment. It's about creating a society where conditions like Parkinson's are understood, not feared; where patients are supported, not isolated; where families find strength in community, not shame in silence. As the Rwandan proverb goes, "Intera kugera kure igenda gahoro" - the journey to a distant place begins with small steps.
+                    </p>
+                    <br />
+                    <p>
+                    Through Partners in Health, we continue to work towards this vision, even as I balance my commitments as a student preparing for national exams. Every story shared, every workshop conducted, every mind changed brings us closer to our goal. The courage of global figures like Michael J. Fox, combined with the resilience of local patients like Mama Jeannette, shows us what's possible when we choose understanding over ignorance, support over stigma.
+                    </p>
+                    <br />
+                    <p>
+                    As we continue this journey, I invite you to be part of this change. Whether you're a student, healthcare worker, community leader, or simply someone who cares, your voice and support matter. Together, we can create a future where no one faces their health challenges alone, where "umusazi" is replaced with understanding, and where every person with Parkinson's can live with dignity and hope.
+                    </p>
+                    <br />
+                    <p>
+                    Let's make this future a reality, one step, one story, one community at a time.
+                    </p>
+                </div>
+            },
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>19, November 2024 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            }
+        ]
+    },
+
+    // Together for our African Girls and Young Women
+
+    {
+        id: "05",
         title: "Together for our African Girls and Young Women",
         excerpt: "Exploring the complex challenges facing young women in Sub-Saharan Africa, from healthcare access to HIV prevention, and how organizations like Global Communities are working to create lasting change through comprehensive intervention programs.",
         content: [
@@ -268,7 +364,7 @@ const blogPosts = [
     
     // Student body leader
     {
-        id: "05",
+        id: "06",
         title: "Student Body Leader 😃",
         excerpt: "Surprise! You're the Student Body Leader (While Eating Mom's Cooking)",
         content: [
@@ -329,7 +425,7 @@ const blogPosts = [
 
     // Smogy Nairobi by Dalton
     {
-        id: "06",
+        id: "07",
         title: "My trip to Good Old Smoggy Nairobi",
         excerpt: "Places are simply narratives. Mombasa was not as hot as I had imagined. It was not at all like anything I had imagined...",
         content: [
@@ -462,7 +558,7 @@ const blogPosts = [
 
     // From Eve's Substack
     {
-        id: "07",
+        id: "08",
         title: "My conspiracy theory, little new habits and a few podcasts",
         excerpt: "Consider this one a panel made of a tech conspiracy theorist and an African mother who is looking for tips to stay healthy.",
         content: [
@@ -526,7 +622,7 @@ const blogPosts = [
     // The need to write from PG
 
     {
-        id: "08",
+        id: "09",
         title: "The Need to Read 📚📚",
         excerpt: "Everyone, young or old needs to read. The time you stop learning is the same time you stop living",
         content: [
@@ -584,7 +680,7 @@ const blogPosts = [
     
     // End of 2022. From Eve
     {
-        id: "09",
+        id: "10",
         title: "Reflections and Aspirations: Navigating the End of 2022",
         excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [
@@ -646,7 +742,7 @@ const blogPosts = [
     },
 
     {
-        id: "10",
+        id: "11",
         title: "Trusting Life's Timing: Balancing Gratitude and Aspiration",
         excerpt: "Exploring the delicate balance between appreciating your present moment while nurturing future aspirations, this post delves into creating personal timelines, manifestation, and finding direction in life's journey.",
         content: [
@@ -720,7 +816,79 @@ const blogPosts = [
                 </div>
             }
         ]
-    }
+    },
+
+    // {
+    //     id: "07",
+    //     title: "Breaking the Stigma: Parkinson's Disease in Africa and My Journey to Make a Difference",
+    //     excerpt: "Reflecting on Michael J. Fox's journey with Parkinson's Disease, the stigma faced by PD patients in Africa, and how my mother's battle with Thrombosis inspired the creation of Partners in Health organization.",
+    //     content: [
+    //         {
+    //             type: "text",
+    //             content: 
+    //             <div>
+    //                 <p>
+    //                 When I watched Michael J. Fox's documentary recently, it struck a chord deep within me. Here was a Hollywood star, openly sharing his journey with Parkinson's Disease (PD), advocating for research, and changing perceptions globally. Yet, in my home country Rwanda and during my visits to Kenya, I've witnessed a stark contrast in how we perceive and treat those with similar conditions.
+    //                 </p>
+    //                 <br />
+    //                 <h2>The Reality of Neurological Disorders in Africa</h2>
+    //                 <p>
+    //                 In many parts of Africa, including Rwanda, people with Parkinson's Disease are often labeled "umusazi" (mad person). The tremors, difficulty in walking, and other symptoms are frequently misunderstood as signs of mental illness or, worse, witchcraft. This stigma doesn't just hurt emotionally - it prevents people from seeking proper medical care and support when they need it most.
+    //                 </p>
+    //                 <br />
+    //                 <h2>A Personal Connection to Healthcare Challenges</h2>
+    //                 <p>
+    //                 My understanding of healthcare disparities deepened when my mother was diagnosed with Thrombosis. The fear and uncertainty we faced as a family opened my eyes to the gaps in our healthcare system. Watching her struggle to access proper care and medication became the catalyst for what would later become the Partners in Health organization.
+    //                 </p>
+    //                 <br />
+    //                 <p>
+    //                 Even as a high school student at FAWE Girls School, I knew I had to do something. The contrast between the healthcare access we take for granted and what's actually available to most people in our communities became impossible to ignore. This realization led to the founding of Partners in Health, an initiative that, though still in its early stages, aims to bridge these critical gaps.
+    //                 </p>
+    //                 <br />
+    //                 <h2>Building Bridges in Healthcare</h2>
+    //                 <p>
+    //                 Partners in Health started as a small school project but has grown into something more meaningful. We organize awareness campaigns, connect patients with available resources, and work to educate communities about various health conditions, including Parkinson's Disease. While we're still small - after all, we're making steady progress.
+    //                 </p>
+    //                 <br />
+    //                 <h2>The Path Forward</h2>
+    //                 <p>
+    //                 Watching Michael J. Fox's advocacy work has shown me what's possible when we combine personal experience with public education. In Africa, we need to:
+    //                 - Increase awareness about neurological disorders through community education
+    //                 - Work with traditional leaders who often influence community perceptions
+    //                 - Partner with existing healthcare facilities to improve access to proper diagnosis and treatment
+    //                 - Create support networks for patients and their families
+    //                 </p>
+    //                 <br />
+    //                 <p>
+    //                 The journey of transforming how we view and treat Parkinson's Disease in Africa is just beginning. While I may be young, and our organization may be small, I believe that every step toward better understanding and improved healthcare access matters. My mother's battle with Thrombosis taught me that healthcare isn't just about medicine - it's about dignity, understanding, and community support.
+    //                 </p>
+    //                 <br />
+    //                 <p>
+    //                 As I continue my education and grow our initiative, I'm inspired by advocates like Michael J. Fox who show us that living with a condition doesn't define you - it's how you respond to it that matters. Through Partners in Health, we're working to create a future where no one is labeled "umusazi" for having a medical condition, where healthcare is accessible to all, and where every patient is treated with dignity and understanding.
+    //                 </p>
+    //                 <br />
+    //                 <p>
+    //                 The road ahead is long, but as my mother always says, "Intera kugera kure igenda gahoro" - the journey to a distant place begins with small steps.
+    //                 </p>
+    //             </div>
+    //         },
+    //         {
+    //             type: "text",
+    //             content: 
+    //             <div> 
+    //                 <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>19, January 2024 &copy; Queen</p> 
+    //                 <footer className="mt-8 text-sm text-white/60">
+    //                     <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+    //                 </footer>
+    //             </div>
+    //         }
+    //     ]
+    // },
+
+    
+
+
+
 
     // {
     //     id: "06",
