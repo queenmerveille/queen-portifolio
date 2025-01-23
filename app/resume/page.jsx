@@ -30,6 +30,18 @@ const extracurriculars = {
     //   image: "/api/placeholder/400/300"
     },
     {
+      "title": "Rwanda Math Olympiad Team",
+      "position": "Algebraic Topology & Calculus Adviser, Team Captain",
+      "description": "Led Rwanda's International Mathematical Olympiad summer training camp as a national 1st runner-up, mentoring 15 teammates in advanced mathematical disciplines. Developed workshops in algebraic topology and calculus, preparing teammates for complex mathematical competitions and academic symposiums.",
+      "images": [
+      "/assets/extracurriculars/mathimage0.png",
+      "/assets/extracurriculars/mathimage1.jpeg",
+      "/assets/extracurriculars/mathimage2.jpeg",
+      "/assets/extracurriculars/mathimage3.jpeg",
+      "/assets/extracurriculars/mathimage4.jpg"
+      ]
+    },
+    {
       title: "Science Club Innovation",
       position: "Club President",
       description: "Managed weekly experiments, coordinated science fair projects, and fostered STEM enthusiasm among peers.",
@@ -40,6 +52,7 @@ const extracurriculars = {
         "/assets/extracurriculars/science_lab2.jpeg"
       ]
     },
+    
     {
       title: "Debate Club Development",
       position: "Founder & President",
@@ -91,6 +104,11 @@ const experience = {
       company: "Fawe Girls School",
       position: "Student Body President",
       duration: "Sep 2023 - Present",
+    },
+    {
+      company: "Rwanda Math Olympiad Team",
+      position: "Math Coach",
+      duration: "Nov 2024 - Present",
     },
     {
       company: "Science Club",
