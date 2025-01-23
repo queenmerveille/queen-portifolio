@@ -112,9 +112,71 @@ const blogPosts = [
         ]
     },
 
-    // The lean startup
+    // Mathematics Journey
     {
         id: "02",
+        title: "The Numbers That Changed My Life 🧮",
+        excerpt: "A journey through mathematics, problem-solving, and discovering the beauty of mathematical thinking beyond textbooks and competitions",
+        content: [
+            {
+                type: "text",
+                content: 
+                <div>
+                    <br />
+                    <p>The first time I truly fell in love with mathematics wasn't in a classroom. It was sitting on a worn wooden stool in my grandmother's village home, playing Igisoro—a traditional Rwandan board game that demanded more strategy than luck.</p>
+                    <br />
+                    <p>My grandmother's weathered hands would move the small stones across the board, her eyes twinkling with a challenge. "Think ahead," she would say. "Mathematics is not about the numbers you see, but the patterns you understand."</p>
+                    <br />
+                    <p>I was maybe ten then, more interested in solving the puzzle of her game than understanding its deeper mathematical implications. But those moments—those quiet afternoons where strategy meant everything—were planting seeds I wouldn't recognize until years later.</p>
+                    <br />
+                    <p>By the time I reached high school, that seed had grown. The Rubik's cube became my obsession. While other teenagers saw a frustrating toy, I saw a three-dimensional mathematical challenge. Each twist was a potential solution, each rotation a step closer to understanding complex algorithmic thinking.</p>
+                    <br />
+                    <p>My math teachers noticed. Mr. Kabera, our stern but passionate mathematics instructor, pulled me aside one afternoon. "You see patterns differently," he observed. "Have you considered competitive mathematics?"</p>
+                    <br />
+                    <p>The Pan African Mathematical Olympiad (PAMO) was nothing like I'd imagined. It wasn't about being the fastest calculator or memorizing endless formulas. It was about creative problem-solving, about looking at mathematical challenges from angles others might never consider.</p>
+                    <br />
+                    <p>My first PAMO was a humbling experience. I didn't win. Didn't even come close. But something profound happened—I discovered the beauty of mathematical thinking. Each problem was a story waiting to be unraveled, each solution a narrative of logical reasoning.</p>
+                    <br />
+                    <p>I remember one particular problem that took me days to solve. It wasn't complex in its mathematical notation, but in its elegant simplicity. When I finally understood the solution, it felt like solving an intricate puzzle—not just with my mind, but with my entire being.</p>
+                    <br />
+                    <p>Training for these competitions wasn't just about mathematics. It was about building mental resilience. Learning that failure isn't a stop sign, but a detour. That every unsolved problem contains within it the seeds of future understanding.</p>
+                    <br />
+                    <p>The International Mathematical Olympiad (IMO) was another milestone. Representing my country, I realized mathematics was a universal language. Young minds from different continents, speaking different tongues, united by the pure logic of numbers and patterns.</p>
+                    <br />
+                    <p>But beyond the competitions, mathematics became my lens for understanding the world. I saw mathematical principles in everything—in the strategic board games with my grandmother, in the complex algorithms of a Rubik's cube, in the intricate systems that govern our universe.</p>
+                    <br />
+                    <p>To every young mathematician reading this: Mathematics isn't about being a genius. It's about curiosity. About asking "why" instead of just accepting "what". It's about seeing the world not as a fixed landscape, but as a dynamic puzzle waiting to be understood.</p>
+                    <br />
+                    <p>My journey taught me that the most beautiful solutions are often the simplest. That persistence can unlock seemingly impossible problems. And that mathematics is not just a subject—it's a way of thinking, of seeing, of understanding.</p>
+                    <br />
+                    <p>Keep solving. Keep exploring. The most incredible journeys begin with a single, curious step.</p>
+                </div>
+            },
+            {
+                type: "text",
+                content: 
+                <div>
+                    <p className="font-semibold">With mathematical excitement,</p>
+                    <p className="font-semibold">Queen</p>
+                </div>
+            },
+
+            {
+                type: "text",
+                content: 
+                <div> 
+                    <p style={{ color: '#10B981', textAlign: 'right', fontWeight: 600 }}>21, January 2024 &copy; Queen</p> 
+                    <footer className="mt-8 text-sm text-white/60">
+                        <p>&copy; 2024 Queen Merveille. All rights reserved.</p>
+                    </footer>
+                </div>
+            }
+        ]
+    },
+
+    // The lean startup
+    {
+        id: "03",
         title: "The Lean Startup",
         excerpt: "The Lean Startup: A Highschooler's Guide to Building Smart (While Procrastinating on Math Homework)",
         content: [
@@ -174,7 +236,7 @@ const blogPosts = [
     },
 
     {
-        id: "03",
+        id: "04",
         title: "Man to Machine: Exploring AI Sentience Through Academic Research",
         excerpt: "Diving into the fascinating question of AI consciousness through my senior research paper. Join me in exploring the boundaries between artificial intelligence and true sentience.",
         content: [
@@ -218,7 +280,7 @@ const blogPosts = [
     // Pakinsons
 
     {
-        id: "04",
+        id: "05",
         title: "Beyond the Tremors: Redefining Parkinson's Disease in African Society",
         excerpt: "A deep dive into the intersection of Parkinson's Disease, cultural stigma in Africa, and the power of changing narratives. From Michael J. Fox's inspiring journey to local stories of resilience, we explore how understanding and compassion can transform lives.",
         content: [
@@ -314,7 +376,7 @@ const blogPosts = [
     // Together for our African Girls and Young Women
 
     {
-        id: "05",
+        id: "06",
         title: "Together for our African Girls and Young Women",
         excerpt: "Exploring the complex challenges facing young women in Sub-Saharan Africa, from healthcare access to HIV prevention, and how organizations like Global Communities are working to create lasting change through comprehensive intervention programs.",
         content: [
@@ -364,7 +426,7 @@ const blogPosts = [
     
     // Student body leader
     {
-        id: "06",
+        id: "07",
         title: "Student Body Leader 😃",
         excerpt: "Surprise! You're the Student Body Leader (While Eating Mom's Cooking)",
         content: [
@@ -425,7 +487,7 @@ const blogPosts = [
 
     // Smogy Nairobi by Dalton
     {
-        id: "07",
+        id: "08",
         title: "My trip to Good Old Smoggy Nairobi",
         excerpt: "Places are simply narratives. Mombasa was not as hot as I had imagined. It was not at all like anything I had imagined...",
         content: [
@@ -558,7 +620,7 @@ const blogPosts = [
 
     // From Eve's Substack
     {
-        id: "08",
+        id: "09",
         title: "My conspiracy theory, little new habits and a few podcasts",
         excerpt: "Consider this one a panel made of a tech conspiracy theorist and an African mother who is looking for tips to stay healthy.",
         content: [
@@ -622,7 +684,7 @@ const blogPosts = [
     // The need to write from PG
 
     {
-        id: "09",
+        id: "10",
         title: "The Need to Read 📚📚",
         excerpt: "Everyone, young or old needs to read. The time you stop learning is the same time you stop living",
         content: [
@@ -680,7 +742,7 @@ const blogPosts = [
     
     // End of 2022. From Eve
     {
-        id: "10",
+        id: "11",
         title: "Reflections and Aspirations: Navigating the End of 2022",
         excerpt: "As we wrap up 2022, let's embrace learning, leverage our talents, and seek adventures. This newsletter offers insights on planning for the year ahead, emphasizing personal growth and gratitude.",
         content: [

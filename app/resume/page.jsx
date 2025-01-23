@@ -101,32 +101,32 @@ const experience = {
   description: "A track record of impactful roles in software engineering and IT, demonstrating skills in various programming languages and technologies.",
   items: [
     {
-      company: "Fawe Girls School",
+      company: "@ Fawe Girls School",
       position: "Student Body President",
       duration: "Sep 2023 - Present",
     },
     {
-      company: "Rwanda Math Olympiad Team",
+      company: "@ Rwanda Math Olympiad Team",
       position: "Math Coach",
       duration: "Nov 2024 - Present",
     },
     {
-      company: "Science Club",
-      position: "President",
+      company: "@ Science Club",
+      position: "Club President",
       duration: "Sep 2023 - Present",
     },
     {
-      company: "Debate Club",
+      company: "@ Debate Club",
       position: "Founder & President",
       duration: "May 2023 - Aug 2023",
     },
     {
-      company: "Tecno Mobile Rwanda",
+      company: "@ Tecno Mobile Rwanda",
       position: "Software Engineer Intern",
       duration: "July 2022 - September 2022",
     },
     {
-      company: "Equity Bank Limited",
+      company: "@ Equity Bank Limited",
       position: "Banking Fellow",
       duration: "Nov 2020 – Nov 2020",
     },
