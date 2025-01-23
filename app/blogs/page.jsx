@@ -122,6 +122,7 @@ const blogPosts = [
                 type: "text",
                 content: 
                 <div>
+                    <img src="/assets/extracurriculars/matholympiad.jpg" alt="Math olympiad picture" />
                     <br />
                     <p>The first time I truly fell in love with mathematics wasn't in a classroom. It was sitting on a worn wooden stool in my grandmother's village home, playing Igisoro—a traditional Rwandan board game that demanded more strategy than luck.</p>
                     <br />
