@@ -17,7 +17,7 @@ const stats = [
         text: "Families Helped with $5k Raised In Charity",
     },
     {
-        num: 2025,
+        num: 2,
         text: "Wavumbuzi Entrepreneurship Challenger 1st Runner-up",
     },
     {
