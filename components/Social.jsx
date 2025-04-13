@@ -2,8 +2,8 @@ import Link from "next/link";
 import { FaLinkedinIn, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const socials = [
-    { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/germain-hirwa-5b07041b3/" },
-    { icon: <FaInstagram />, path: "https://www.instagram.com/germainhirwa?igsh=MXJoc2FjeTI3aXBuMQ%3D%3D&utm_source=qr" },
+    { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/queen-merveille-6535952a6/" },
+    { icon: <FaInstagram />, path: "https://www.instagram.com/_q.merveille?igsh=a2todmV5NDM5Zm0z" },
     { icon: <FaTwitter />, path: "https://twitter.com/your-username" },
 ];
 
