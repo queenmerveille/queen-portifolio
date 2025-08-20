@@ -101,14 +101,24 @@ const experience = {
   description: "A track record of impactful roles in software engineering and IT, demonstrating skills in various programming languages and technologies.",
   items: [
     {
-      company: "@ Fawe Girls School",
-      position: "Student Body President",
-      duration: "Sep 2023 - Present",
+      company: "@ Tecno Mobile Rwanda",
+      position: "Software Engineer Intern",
+      duration: "July 2022 - September 2022",
+    },
+    {
+      company: "@ Equity Bank Limited",
+      position: "Banking Fellow",
+      duration: "Nov 2020 – Nov 2020",
     },
     {
       company: "@ Rwanda Math Olympiad Team",
       position: "Math Coach",
       duration: "Nov 2024 - Present",
+    },
+    {
+      company: "@ Fawe Girls School",
+      position: "Student Body President",
+      duration: "Sep 2023 - Present",
     },
     {
       company: "@ Science Club",
@@ -120,16 +130,6 @@ const experience = {
       position: "Founder & President",
       duration: "May 2023 - Aug 2023",
     },
-    {
-      company: "@ Tecno Mobile Rwanda",
-      position: "Software Engineer Intern",
-      duration: "July 2022 - September 2022",
-    },
-    {
-      company: "@ Equity Bank Limited",
-      position: "Banking Fellow",
-      duration: "Nov 2020 – Nov 2020",
-    },
   ]
 };
 
@@ -138,6 +138,11 @@ const education = {
   title: "My education",
   description: "A blend of formal education and self-directed learning, focusing on Computer Science, Economics, and programming technologies.",
   items: [
+    {
+      institution: "University of Pennsylvania",
+      degree: "Computer Science & Economics",
+      duration: "2025 - 2029",
+    },
     {
       institution: "Fawe Girls School",
       degree: "Math, Economics & Computer Science",
@@ -180,12 +185,12 @@ const tech_skills = {
     { icon: <SiCplusplus />, name: "C++" },
     { icon: <FaJs />, name: "JavaScript" },
     { icon: <SiSwift />, name: "Swift" },
-    { icon: <SiRuby />, name: "Ruby" },
+    { icon: <FaReact />, name: "React" },
     { icon: <FaHtml5 />, name: "HTML5" },
     { icon: <FaCss3 />, name: "CSS3" },
     { icon: <FaGithub />, name: "Git/GitHub" },
     { icon: <SiDjango />, name: "Django" },
-    { icon: <FaReact />, name: "React" },
+    { icon: <SiRuby />, name: "Ruby" },
     { icon: <FaNode />, name: "Node.js" },
     { icon: <SiArduino />, name: "Arduino" }
   ]

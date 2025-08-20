@@ -20,7 +20,7 @@ const info = [
     {
         icon: <FaPhoneAlt />,
         title: "Phone",
-        description: "(+250) 787 899 280",
+        description: "(+250) 787 899 ***",
     },
     {
         icon: <FaEnvelope />,
@@ -30,7 +30,7 @@ const info = [
     {
         icon: <FaMapMarkerAlt />,
         title: "Address",
-        description: "KG 315 ST 17",
+        description: "3451 Walnut Street, Philadelphia, PA 19104",
     },
 ];
 

@@ -4,13 +4,21 @@
 import CountUp from "react-countup";
 
 const stats = [
+    // {
+    //     num: 1,
+    //     text: "2023 Provincial Youth Award",
+    // },
     {
-        num: 1,
-        text: "2023 Provincial Youth Award",
+        num: 12,
+        text: "Projects Completed",
     },
     {
-        num: 2,
-        text: "National Science Competitions Participant",
+        num: 10,
+        text: "Technologies Mastered",
+    },
+    {
+        num: 200,
+        text: "Code Commits",
     },
     {
         num: 78,
@@ -18,12 +26,16 @@ const stats = [
     },
     {
         num: 2,
-        text: "Wavumbuzi Entrepreneurship Challenger 1st Runner-up",
+        text: "National Science Competitions Participant",
     },
-    {
-        num: 1,
-        text: "East African Debate 1st Runner-up",
-    },
+    // {
+    //     num: 2,
+    //     text: "Wavumbuzi Entrepreneurship Challenger 1st Runner-up",
+    // },
+    // {
+    //     num: 1,
+    //     text: "East African Debate 1st Runner-up",
+    // },
 ]
 
 const Stats = () => {
