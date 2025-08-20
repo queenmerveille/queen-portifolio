@@ -141,12 +141,12 @@ const education = {
     {
       institution: "University of Pennsylvania",
       degree: "Computer Science & Economics",
-      duration: "2025 - 2029",
+      duration: "2025 - 2029 (College)",
     },
     {
       institution: "Fawe Girls School",
       degree: "Math, Economics & Computer Science",
-      duration: "2022 - 2025",
+      duration: "2022 - 2025 (Highschool)",
     },
     {
       institution: "Isomo Academy - Bridge2Rwanda",
@@ -156,7 +156,7 @@ const education = {
     {
         institution: "Groupe Scolaire Officiel de Butare",
         degree: "Ordinary Level High-school",
-        duration: "2019 - 2022",
+        duration: "2019 - 2022 (Middle School)",
     },
     {
         institution: "Udemy",
