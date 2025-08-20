@@ -13,12 +13,16 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between pt-2 xl:pt-2 xl:pb-12">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">High-school Senior & Software Developer</span>
+            {/* <span className="text-xl">High-school Senior & Software Developer</span> */}
+            <span className="text-xl">Software Engineer & CS Student</span>
             <h1 className="h1 mb-6">
               Hello, I'm <br /> <span className="text-accent">Queen Umuhoza</span>
             </h1>
-            <p className="max-w-[600px] mb-9 text-white/80">
+            {/* <p className="max-w-[600px] mb-9 text-white/80">
               Passionate Senior Highschool student at Fawe Girls School, with a track record of: Leadership, public Speaking and innovative software development. I blend academic rigor with practical experience to create impactful solutions, from student leadership initiatives to technology innovations.
+            </p> */}
+            <p className="max-w-[600px] mb-9 text-white/80">
+            Passionate Computer Science and Economics student at University of Pennsylvania, with a track record of innovative software development, leadership, and public speaking. I blend academic rigor with practical experience to create impactful digital solutions, from enterprise software to mobile apps.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
