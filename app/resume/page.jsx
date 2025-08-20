@@ -146,12 +146,12 @@ const education = {
     {
       institution: "Fawe Girls School",
       degree: "Math, Economics & Computer Science",
-      duration: "2022 - 2025 (Highschool)",
+      duration: "2022 - 2025 (High-school)",
     },
     {
       institution: "Isomo Academy - Bridge2Rwanda",
       degree: "Scholar",
-      duration: "2023 - Present",
+      duration: "2023 - 2025 (College Prep)",
     },
     {
         institution: "Groupe Scolaire Officiel de Butare",
