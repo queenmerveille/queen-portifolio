@@ -6,11 +6,11 @@ import CountUp from "react-countup";
 const stats = [
     {
         num: 1,
-        text: "2023 Presidential Youth Award",
+        text: "2023 Provincial Youth Award",
     },
     {
-        num: 1,
-        text: "2022 O'Level National Exams Best Performer",
+        num: 2,
+        text: "National Science Competitions Participant",
     },
     {
         num: 78,
@@ -18,7 +18,7 @@ const stats = [
     },
     {
         num: 2,
-        text: "National Science Competitions Winner",
+        text: "Wavumbuzi Entrepreneurship Challenger 1st Runner-up",
     },
     {
         num: 1,
