@@ -287,7 +287,7 @@ const Resume = () => {
   }, []);
 
   const openResume = () => {
-    window.open('https://docs.google.com/document/d/1OuLdM4HNPCfsSjXSvzwfzwyUXGYLMj11I7STw5A-6zk/edit?usp=sharing', '_blank');
+    window.open('https://drive.google.com/file/d/1dy94DvVDvkjlYdCRT9U6kx9TbwRaKV1t/view?usp=sharing', '_blank');
   };
 
   return (
